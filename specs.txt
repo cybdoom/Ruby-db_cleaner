@@ -1,0 +1,119 @@
+Below is a description of a project in Ruby.
+
+The deliverable is an executable that need to run on a Centos server periodically and garbage collect tokens from the DB.
+
+Push Notifications systems – GCM and APNS
+
+Database MySql
+
+Preferred programmers: experienced with Ruby (more than 3 years) and MySql
+
+Advantage: knowledge of the GCM and APNS services
+
+Push Notifications – Clean DB
+
+Introduction
+
+Push notification allows an app to notify user of new messages or events without the need to actually open the application, similar to how a text message will make a sound and pop up on your screen.
+
+Notification is consisting of two major pieces of data: the device token and the payload.
+
+The device token is analogous to a phone number; it contains information that enables the sender to locate the device on which the client application is installed.
+
+Token was created when the application was registered, and it is unique per application version.
+
+Users installed the application on their mobile, and the application sends us a request to register the token on our DB.
+
+We are supporting push notifications for 2 platforms: IOS and Android.
+
+The Goal:
+
+Removing/updating the invalid tokens from DB in order to avoid unnecessary sending which will fail.
+
+Our requirements:
+
+·There are multiple reasons that some of the tokens become not applicable and we need remove them from the DB.
+
+·The process will run in the background and will run periodically (configure).
+
+·The process will run on both of the environments – Android and IOS
+
+·All the removed token details will be written in the log file
+
+·The log file level will be configurable
+
+QA:
+
+·A sanity test description
+
+·A detailed description of the testing process
+
+We expect to receive an offer that meets all the defined above sections.
+
+Knowledge:
+
+IOS:
+
+Feedback service for IOS:
+
+https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/CommunicatingWIthAPS.html#//apple_ref/doc/uid/TP40008194-CH101-SW3
+
+How to get response from the Feedback service – see:https://developer.apple.com/library/ios/technotes/tn2265/_index.html#//apple_ref/doc/uid/DTS40010376-CH1-TNTAG2
+
+Under: “Issues with Using the Feedback Service”
+
+Notes:
+
+·We need a Feedback connection for each application version.
+
+·In case the certificate for application was changed – need to create the Feedback connection again.
+
+Another requirements:
+
+·Check is there a possibility to simulate sending push notifications – so we can test the tokens not in real time.
+
+·Check how to get response code of failure (2,5,8 – invalid token) - now the ‘grocer’ gem that we used return only a number that does not reflect error number as it appears in IOS documents (https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/CommunicatingWIthAPS.html#//apple_ref/doc/uid/TP40008194-CH101-SW3 - under “Table 5-1 Codes in error-response”)
+
+Android:
+
+Notice: Use “dry_run” parameter for simulating the sending.
+
+This page describe the responses from GCM server:
+http://developer.android.com/google/gcm/http.html
+
+We supported the errors: 'MissingRegistration', 'InvalidRegistration', 'NotRegistered'
+
+canonical_id:
+http://developer.android.com/google/gcm/adv.html#canonical
+
+Update the token on DB in case that returned “registration_id” on response. It caused when device had multiple registrations for the same device. GCM return the canonical id – defined to be the ID of the last registration requested by your application. Other tokens will stop work eventually.
+
+DB:
+
+For sending push notifications we have 2 tables:
+
+Table: push_notification_targets
+
+·device_id – The device (camera) which the mobile application associated to it
+
+·platform – IOS or Android
+
+·application_version – Version of application (associated to certificate on “push_notification_keys” table)
+
+·push_notification_token – The token of the application on the mobile
+
+Table: push_notification_keys
+
+·application_version
+
+·platform
+
+·key_data – The certificate.
+
+We have API's for actions on these tables.
+
+надо комманд-лайн утилитку
+которая шлет нофификейшены
+данные берет из двух таблиц
+обрабатывает ответы и удаляет несуществующие подписки
+почитай пока
