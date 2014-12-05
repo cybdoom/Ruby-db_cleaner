@@ -11,12 +11,12 @@
     :level: :debug
     :stream: {
       stdout: true
-      files: []
+      files:
       format:
     }
 
-  :clean:
-    :period: 24 # hours
+  :workers:
+    :count: 8
 
 :production:
   :database:
@@ -31,9 +31,9 @@
     :level: :warn
     :stream: {
       stdout: false
-      files: []
+      files: ['production.log']
       format:
     }
 
-  :clean:
-    :period: 24 # hours
+  workers:
+    count: 16
