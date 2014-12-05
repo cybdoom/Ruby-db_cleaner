@@ -1,7 +1,4 @@
 class Listener
-  def initialize
-  end
-
-  def check
+  def initialize options
   end
 end

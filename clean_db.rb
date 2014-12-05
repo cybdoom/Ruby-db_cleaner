@@ -30,10 +30,14 @@ class Cleaner
     @@logger
   end
 
+  def self.config
+    @@config
+  end
+
   private
 
   def load_config
-    File.open(CONFIG_PATH, 'r') { |file_stream| @config = YAML.load(file_stream)[@env] }
+    File.open(CONFIG_PATH, 'r') { |file_stream| @@config = YAML.load(file_stream)[@env] }
   rescue Exception => e
     STDOUT.puts 'Wrong config file was given. Please check if config file exists and is valid'
     abort

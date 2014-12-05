@@ -5,6 +5,5 @@ class Sender
 
   def send_notification
     @adapter.send_notification
-    invoke_callback_listener if @adapter.class.name.split('_').first == 'APNS'
   end
 end
