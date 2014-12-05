@@ -1,23 +1,39 @@
-test:
-  database:
-    name: push_notifications-test
-    tables:
-      targets:
-        name: push_notification_targets
-      keys:
-        name: push_notification_keys
+:test:
+  :database:
+    :name: 'push_notifications-test'
+    :tables:
+      :targets:
+        :name: 'push_notification_targets'
+      :keys:
+        :name: 'push_notification_keys'
 
-  clean:
-    period: 24 # hours
+  :log:
+    :level: :debug
+    :stream: {
+      stdout: true
+      files: []
+      format:
+    }
 
-production:
-  database:
-    name: push_notifications
-    tables:
-      targets:
-        name: push_notification_targets
-      keys:
-        name: push_notification_keys
+  :clean:
+    :period: 24 # hours
 
-  clean:
-    period: 24 # hours
+:production:
+  :database:
+    :name: 'push_notifications'
+    :tables:
+      :targets:
+        :name: 'push_notification_targets'
+      :keys:
+        :name: 'push_notification_keys'
+
+  :log:
+    :level: :warn
+    :stream: {
+      stdout: false
+      files: []
+      format:
+    }
+
+  :clean:
+    :period: 24 # hours
