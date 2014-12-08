@@ -5,8 +5,8 @@ class DataDestroyer
     @data = data
   end
 
-  def mark_for_destroy record_id
-    @data[record_id][:outdated] = true
+  def mark_for_destroy record_key
+    @data[record_key][:outdated] = true
   end
 
   def destroy_all

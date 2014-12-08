@@ -1,6 +1,10 @@
 :test:
   :database:
     :name: 'push_notifications-test'
+    :host: 'localhost'
+    :encoding: 'utf8'
+    :username: 'root'
+    :password:
     :tables:
       :targets:
         :name: 'push_notification_targets'
@@ -21,6 +25,10 @@
 :production:
   :database:
     :name: 'push_notifications'
+    :host: 'localhost'
+    :encoding: 'utf8'
+    :username: 'root'
+    :password:
     :tables:
       :targets:
         :name: 'push_notification_targets'

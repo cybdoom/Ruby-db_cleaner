@@ -23,7 +23,7 @@ class Cleaner
   end
 
   def launch_factory
-    Factory.new(@data).launch
+    Factory.new(self, @data).launch
   end
 
   def self.logger
@@ -32,6 +32,10 @@ class Cleaner
 
   def self.config
     @@config
+  end
+
+  def results
+    @results
   end
 
   private
@@ -62,3 +66,5 @@ end
 cleaner = Cleaner.new :test
 cleaner.gather_data
 cleaner.launch_factory
+
+Cleaner.logger.log "Finished successfully.\nTotal rows checked: #{ cleaner.results[:total] }\nDeleted: #{ cleaner.results[:deleted] }"
