@@ -1,7 +1,6 @@
-class APNS_Adapter
-  def initialize
-  end
-
-  def send_notification
+module Adapters
+  module APNS
+    def send_notification
+    end
   end
 end

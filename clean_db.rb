@@ -22,8 +22,8 @@ class Cleaner
     @data = @data_miner.mine
   end
 
-  def invoke_senders_factory
-    SendersFactory.new(@data).launch
+  def launch_factory
+    Factory.new(@data).launch
   end
 
   def self.logger
@@ -61,4 +61,4 @@ end
 
 cleaner = Cleaner.new :test
 cleaner.gather_data
-cleaner.invoke_senders_factory
+cleaner.launch_factory

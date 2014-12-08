@@ -1,7 +1,6 @@
-class GCM_Adapter
-  def initialize
-  end
-
-  def send_notification
+module Adapters
+  module GCM
+    def send_notification
+    end
   end
 end
