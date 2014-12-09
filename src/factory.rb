@@ -4,8 +4,8 @@ class Factory
   def initialize cleaner, data
     @cleaner = cleaner
     @data = data # Hash { key: row }
-    @senders_pool = Thread.pool Cleaner.config[:workers][:count]
-    @listeners_pool = Thread.pool Cleaner.config[:workers][:count]
+    @senders_pool = Thread.pool Settings.workers].count
+    @listeners_pool = Thread.pool Settings.workers].count
   end
 
   def launch

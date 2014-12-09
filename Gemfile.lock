@@ -16,6 +16,7 @@ GEM
     multi_json (1.10.1)
     multi_xml (0.5.5)
     mysql2 (0.3.17)
+    settingslogic (2.0.9)
     thread (0.1.4)
 
 PLATFORMS
@@ -26,4 +27,5 @@ DEPENDENCIES
   grocer
   logging
   mysql2
+  settingslogic
   thread

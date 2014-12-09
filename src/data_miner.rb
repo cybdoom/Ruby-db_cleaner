@@ -1,5 +1,5 @@
 class DataMiner
-  def initialize config
+  def initialize
     connect_to_db
   end
 
@@ -14,14 +14,13 @@ class DataMiner
   private
 
   def connect_to_db
-    connection_config = Cleaner.config[:database]
     begin
       @mysql_client = Mysql2::Client.new({
-        host: connection_config[:host],
-        username: connection_config[:username],
-        password: connection_config[:password],
-        encoding: connection_config[:encoding],
-        database: connection_config[:database],
+        host: Settings.database.host,
+        username: Settings.database.username,
+        password: Settings.database.password,
+        encoding: Settings.database.encoding,
+        database: Settings.database.name
       })
     rescue
       Cleaner.logger.error 'Cannot connect to mysql database. Please check config and mysql status'

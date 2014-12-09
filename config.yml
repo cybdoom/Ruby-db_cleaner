@@ -1,47 +1,45 @@
-:test:
-  :database:
-    :name: 'push_notifications-test'
-    :host: 'localhost'
-    :encoding: 'utf8'
-    :username: 'root'
-    :password:
-    :tables:
-      :targets:
-        :name: 'push_notification_targets'
-      :keys:
-        :name: 'push_notification_keys'
+test:
+  database:
+   name: 'push_notifications-test'
+   host: 'localhost'
+   encoding: 'utf8'
+   username: 'root'
+   password:
+   tables:
+     targets:
+       name: 'push_notification_targets'
+     keys:
+       name: 'push_notification_keys'
 
-  :log:
-    :level: :debug
-    :stream: {
-      stdout: true
-      files:
-      format:
-    }
+  log:
+   level: :debug
+   stream:
+     stdout: true
+     files:
+     format:
 
-  :workers:
-    :count: 8
+  workers:
+   count: 8
 
-:production:
-  :database:
-    :name: 'push_notifications'
-    :host: 'localhost'
-    :encoding: 'utf8'
-    :username: 'root'
-    :password:
-    :tables:
-      :targets:
-        :name: 'push_notification_targets'
-      :keys:
-        :name: 'push_notification_keys'
+production:
+  database:
+    name: 'push_notifications'
+    host: 'localhost'
+    encoding: 'utf8'
+    username: 'root'
+    password:
+    tables:
+     targets:
+       name: 'push_notification_targets'
+     keys:
+       name: 'push_notification_keys'
 
-  :log:
-    :level: :warn
-    :stream: {
+  log:
+    level: :warn
+    stream:
       stdout: false
       files: ['production.log']
       format:
-    }
 
   workers:
     count: 16
