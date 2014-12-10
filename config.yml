@@ -3,6 +3,10 @@ defaults: &defaults
     server: 'some_server'
     port: 8080
     version: 'v1.0'
+    resources:
+      keys_list: 'push_notification_target/describe_keys'
+      tokens_list: 'osn_recepients/list_tokens'
+      delete_token: 'osn_recepients/delete_recipient'
 
   log:
     level: :debug

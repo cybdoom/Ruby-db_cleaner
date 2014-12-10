@@ -17,13 +17,8 @@ class Cleaner
     configure_logger
   end
 
-  def gather_data
-    @data_miner = DataMiner.new
-    @data = @data_miner.mine
-  end
-
   def launch_factory
-    Factory.new(self, @data).launch
+    Factory.new.launch
   end
 
   def self.logger
@@ -56,7 +51,6 @@ class Cleaner
 end
 
 cleaner = Cleaner.new :test
-cleaner.gather_data
 cleaner.launch_factory
 
 Cleaner.logger.log "Finished successfully.\nTotal rows checked: #{ cleaner.results[:total] }\nDeleted: #{ cleaner.results[:deleted] }"

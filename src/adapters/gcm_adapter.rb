@@ -1,15 +1,14 @@
 module Adapters
   module GCM
-    def initialize_connection
+    def initialize_connection key_data
       @connection = GCM.new(
       # ...
       )
     end
 
-    def send_notification
-      response = @connection.send(
-      # ...
-      )
+    def verify_token token_data
+      # stub
+      false
     end
   end
 end

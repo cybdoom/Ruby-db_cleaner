@@ -15,7 +15,9 @@ GEM
       multi_json (>= 1.8.4)
     multi_json (1.10.1)
     multi_xml (0.5.5)
-    mysql2 (0.3.17)
+    netrc (0.7.9)
+    rest_client (1.8.2)
+      netrc (~> 0.7.7)
     settingslogic (2.0.9)
     thread (0.1.4)
 
@@ -26,6 +28,6 @@ DEPENDENCIES
   gcm
   grocer
   logging
-  mysql2
+  rest_client
   settingslogic
   thread

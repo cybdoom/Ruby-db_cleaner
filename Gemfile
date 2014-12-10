@@ -5,7 +5,7 @@ gem 'settingslogic'
 
 gem 'thread'
 
-gem 'mysql2'
+gem 'rest_client'
 
 gem 'gcm'
 gem 'grocer'

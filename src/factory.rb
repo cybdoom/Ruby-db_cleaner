@@ -1,33 +1,29 @@
 require 'thread'
 
 class Factory
-  def initialize cleaner, data
-    @cleaner = cleaner
-    @data = data # Hash { key: row }
-    @senders_pool = Thread.pool Settings.workers].count
+  def initialize
+    @data_mmanipulator = DataManipulator.new
+
+    @workers_pool = Thread.pool Settings.workers].count
     @listeners_pool = Thread.pool Settings.workers].count
   end
 
   def launch
-    @data.each do |key, row|
-      row_info = analyze row.merge(key: key)
-      @senders_pool.process(row_info) { |arg| spawn_sender(arg) }
-      @listeners_pool.process(row_info) { |arg| spawn_listener(arg) } if row_info[:service] == :apns
+    @keys = @data_manipulator.fetch_keys
+
+    @keys.each do |key_data|
+      @listeners_pool.process(key_data) { |arg| spawn_listener(arg) } if key_data[:platform] == 'APNS'
+      @workers_pool.process(key_data) { |arg| spawn_worker(arg) }
     end
   end
 
   private
 
-  def analyze row
-    # stub
-    row.merge(service: :gcm)
+  def spawn_worker key_data
+    Worker.new(key_data).launch
   end
 
-  def spawn_sender row_info
-    Sender.new(row_info).send_notification
-  end
-
-  def spawn_listener row_info
-    Listener.new(row_info).launch
+  def spawn_listener key_data
+    Listener.new(key_data).launch
   end
 end
