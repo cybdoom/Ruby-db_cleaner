@@ -1,45 +1,21 @@
-test:
-  database:
-   name: 'push_notifications-test'
-   host: 'localhost'
-   encoding: 'utf8'
-   username: 'root'
-   password:
-   tables:
-     targets:
-       name: 'push_notification_targets'
-     keys:
-       name: 'push_notification_keys'
+defaults: &defaults
+  data_api:
+    server: 'some_server'
+    port: 8080
+    version: 'v1.0'
 
   log:
-   level: :debug
-   stream:
-     stdout: true
-     files:
-     format:
-
-  workers:
-   count: 8
-
-production:
-  database:
-    name: 'push_notifications'
-    host: 'localhost'
-    encoding: 'utf8'
-    username: 'root'
-    password:
-    tables:
-     targets:
-       name: 'push_notification_targets'
-     keys:
-       name: 'push_notification_keys'
-
-  log:
-    level: :warn
+    level: :debug
     stream:
-      stdout: false
-      files: ['production.log']
+      stdout: true
+      files:
       format:
 
   workers:
-    count: 16
+    count: 8
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults

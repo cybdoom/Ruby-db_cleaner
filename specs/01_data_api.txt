@@ -1,0 +1,73 @@
+Hi,
+
+According to previous task description we're supposed to be given with the following:
+
+DB:
+For sending push notifications we have 2 tables:
+
+Table: push_notification_targets
+·device_id – The device (camera) which the mobile application associated to it
+·platform – IOS or Android
+·application_version – Version of application (associated to certificate on “push_notification_keys” table)
+·push_notification_token – The token of the application on the mobile
+
+Table: push_notification_keys
+·application_version
+·platform
+·key_data – The certificate.
+We have API's for actions on these tables.
+
+​So, initially, we're going to run through entire database selecting device_ids by certain platform and grouping by key. If to convert that onto API call, I anticipate something like this:
+
+GET:
+/​keys?platform=ios
+
+Response:
+{app_version_1: key_data1, app_version_2: key_data2, ...}
+
+
+GET:
+/devices?app_version=x&platform=y&page=n&per_page=m
+
+Response:
+[{device_id: push_notification_token}, ...]
+
+
+or any other approach you'd suggest.
+
+======================================
+
+Ok, so we have the following flow so far:
+
+1) Get certificates for working with the tokens
+http://<server>:<port>/push_notification_target/describe_keys
+returns a list of keys where each row looks like this [platform,application_version,key_data]
+platform - "APNS" for Apple and "GCM" for Android
+application_version - a string indicating the application version of the key
+key_data - Android certificate or content of Apple pem file
+
+2) Get list of tokens (possibly paginated), estimated API signature
+http://<server>:<port>/v1.0/osn_recepients/list_tokens
+returns a list of tokens where each row looks like this [token, provider_version, provider_name, device_id]
+token - the actual token
+provider_name - "APNS" for Apple and "GCM" for Android
+provider_version - application_version
+device_id - the id of the camera
+
+All these would be used for the subsequent deletion of the token in case it was found invalid.
+
+3) Verification of the token
+
+4) Deletion of the invalid token, estimated API signature
+http://<server>:<port>/v1.0/osn_recepients/delete_recipient
+parameters: [token, provider_version, provider_name, device_id]
+
+
+Does this flow sound reasonable, is it the flow you had in mind?
+Do you have a way to validate the tokens without a push notification appearing for the end user?
+
+Can you estimate how many tokens this service would be able to validate in a given time frame?
+
+
+Best regards,
+Simon
