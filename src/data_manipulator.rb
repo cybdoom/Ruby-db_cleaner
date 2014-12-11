@@ -16,7 +16,7 @@ class DataManipulator
     # initialize resource
     @resources = {}
     #
-    url_prefix = "http://#{Settings.data_api.server}:#{Settings.data_api.port}/"
+    url_prefix = "#{ Settings.data_api.protocol }://#{Settings.data_api.server}:#{Settings.data_api.port}/"
     Settings.data_api.resources.each { |k, v| @resources[k] = RestClient::Resource.new "#{ url_prefix }#{ v }" }
     # # # # # # # # # # #
   end
