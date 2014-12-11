@@ -8,7 +8,7 @@ module Adapters
 
     def verify_token token_data
       # stub
-      false
+      true
     end
   end
 end

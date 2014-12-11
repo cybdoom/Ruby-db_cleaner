@@ -1,7 +1,8 @@
+# Listens for APNS Feedback
 class Listener
   def initialize options
   end
 
-  def launch
+  def listen
   end
 end

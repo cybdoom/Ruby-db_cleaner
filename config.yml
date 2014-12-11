@@ -1,5 +1,6 @@
 defaults: &defaults
   data_api:
+    protocol: 'http'
     server: 'some_server'
     port: 8080
     version: 'v1.0'
@@ -15,8 +16,9 @@ defaults: &defaults
       files:
       format:
 
-  workers:
-    count: 8
+  threads:
+    workers: 4
+    listeners: 8
 
 test:
   <<: *defaults
