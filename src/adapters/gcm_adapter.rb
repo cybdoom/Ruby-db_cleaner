@@ -1,14 +1,16 @@
 module Adapters
   module GCM
-    def initialize_connection key_data
-      @connection = GCM.new(
-      # ...
-      )
+    def connect key
+      @connection = GCM.new key[:key_data]
     end
 
-    def verify_token token_data
-      # stub
-      true
+    def ping token_data
+      message = {
+        data: {},
+        collapse_key: 'ping'
+      }
+
+      @connection.send token_data[:token], message
     end
   end
 end

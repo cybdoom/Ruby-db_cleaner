@@ -16,6 +16,7 @@ GEM
     multi_json (1.10.1)
     multi_xml (0.5.5)
     netrc (0.7.9)
+    redis (3.2.0)
     rest_client (1.8.2)
       netrc (~> 0.7.7)
     settingslogic (2.0.9)
@@ -28,6 +29,7 @@ DEPENDENCIES
   gcm
   grocer
   logging
+  redis
   rest_client
   settingslogic
   thread

@@ -16,6 +16,19 @@ defaults: &defaults
       files:
       format:
 
+  service:
+    apns:
+      gateway: 'gateway.push.apple.com'
+      port:  2195
+      retries:  3
+    feedback:
+      gateway:  "feedback.push.apple.com"
+      port: 2196
+      retries:  2
+
+  mysql:
+
+
   threads:
     workers: 4
     listeners: 8

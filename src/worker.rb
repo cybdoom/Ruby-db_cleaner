@@ -1,13 +1,12 @@
 # Verifies tokens fetched from the remote server, deletes outdated tokens
 class Worker
-  def initialize key_data
+  def initialize key
     # for cloud services interaction
     # defines [:connect, :verify] methods
-    require "adapters/#{key_data.platform.downcase}_adapter"
-    include eval("Adapters::#{ key_data[:platform] }")
+
     # # # # # # # # # # # # # # # # # # #
 
-    self.connect key_data
+    self.connect key
 
     # for fetching and deletiong tokens
     @data_manipulator = DataManipulator.new
@@ -15,13 +14,19 @@ class Worker
 
   def launch
     loop do
-      rows = @data_manipulator.fetch_some_tokens
-      rows.each { |row| @data_manipulator.delete_token(row) unless self.verify_token(row) }
+      # get some tokens from the remote server and save them to our db
+      @data_manipulator.fetch_some_tokens
 
-      if rows.empty? || rows.size < DataManipulator::TOKENS_PER_PAGE
-        break
-      end
+      @tokens.each { |token| ping token }
+
+      break if tokens_ran_out?
     end
+  end
+
+  private
+
+  def tokens_ran_out?
+    @tokens.empty? || @tokens.size < DataManipulator::TOKENS_PER_PAGE
   end
 
 end
