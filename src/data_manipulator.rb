@@ -5,7 +5,7 @@ require_relative 'parser'
 
 # Manipulates with remote DB using rest api
 class DataManipulator
-  # for parsing responses, defines [:parse_keys, :parsetokens] methods
+  # for parsing responses, defines [:parse_keys, :parse_tokens] methods
   include Parser::HTML
 
   TOKENS_PER_PAGE = 100
@@ -20,9 +20,6 @@ class DataManipulator
     url_prefix = "#{ Settings.data_api.protocol }://#{Settings.data_api.server}:#{Settings.data_api.port}/"
     Settings.data_api.resources.each { |k, v| @resources[k] = RestClient::Resource.new "#{ url_prefix }#{ v }" }
     # # # # # # # # # # #
-
-    # connect to db
-    ActiveRecord::Base.establish_connection Settings.database
   end
 
   def fetch_keys

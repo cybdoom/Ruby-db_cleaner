@@ -11,9 +11,10 @@ class Factory
   end
 
   def launch
+    # fetch keys data from the remote server
     @keys = Key.data_manipulator.fetch_keys
 
-    # for each key spawn worker and put it into @workers_pool
+    # for each key fetched save it to our db, spawn ping worker and put it into @workers_pool
     @keys.each do |key|
       key = Key.create key
       results[:keys][:saved] += 1 if key.persisted?

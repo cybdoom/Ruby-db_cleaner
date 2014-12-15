@@ -4,7 +4,11 @@ require File.join %w(. src factory)
 require File.join %w(. src settings)
 require File.join %w(. src logger)
 
+# connect to our db
+ActiveRecord::Base.establish_connection Settings.database
+
 results = {keys: {}, tokens: {}}
+
 ::Factory.new.launch
 
 Megalogger.info <<-MSG
