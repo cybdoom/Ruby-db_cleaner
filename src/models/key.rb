@@ -1,14 +1,15 @@
-class Key < ActiveRecord::Base
-  def self.fetch
+require 'active_record'
 
-  end
+class Key < ActiveRecord::Base
+  validate :key_data, uniqueness: true
 
   def connect
-    if @connection.nil?
-      require_relative File.join '..', 'adapters', "#{self.platform.downcase}_adapter"
-      include eval("Adapters::#{ self.platform }")
-    end
+    require_relative File.join '..', 'adapters', "#{self.platform.downcase}_adapter"
+    include eval("Adapters::#{ self.platform }")
+    self.connect self.key_data
   end
 
-  @@data_manipulator = DataManipulator.new
+  def self.data_manipulator
+    @@data_manipulator ||= DataManipulator.new
+  end
 end

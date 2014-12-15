@@ -1,22 +1,25 @@
 require 'thread/pool'
 
-require_relative File.join %w(. data_manipulator)
-require_relative File.join %w(. worker)
+require_relative 'data_manipulator'
+require_relative 'worker'
+require_relative File.join %w(models key)
 
 # Rules workers lifecycle
 class Factory
   def initialize
-    # for fetching keys data
-    @data_manipulator = DataManipulator.new
-
     @workers_pool = Thread.pool Settings.threads.workers
   end
 
   def launch
-    @keys = @data_manipulator.fetch_keys
+    @keys = Key.data_manipulator.fetch_keys
 
     # for each key spawn worker and put it into @workers_pool
-    @keys.each { |key| @workers_pool.process(key) { |arg| spawn_worker(arg); } }
+    @keys.each do |key|
+      key = Key.create key
+      results[:keys][:saved] += 1 if key.persisted?
+      results[:keys][:valid] += 1 if key.connect
+      @workers_pool.process(key) { |arg| spawn_worker(arg); }
+    end
   end
 
   private

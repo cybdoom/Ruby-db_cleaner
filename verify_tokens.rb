@@ -1,15 +1,18 @@
-ENVIRONMENTS = ['test', 'production']
-DEFAULT_ENV = 'test'
+require File.join %w(src environment)
 
-ENVIRONMENT = ENVIRONMENTS.include?(ENV['ENV']) ? ENV['ENV'] : DEFAULT_ENV
-STDOUT.puts "Run in #{ ENVIRONMENT } mode"
+require File.join %w(src settings)
+require File.join %w(src logger)
+require File.join %w(src models token)
 
-require File.join %w(. src settings)
-require File.join %w(. src data_manipulator)
-require File.join %w(. src logger)
-require File.join %w(. src models token)
-
+results = { total: Token.count }
 Token.each &:verify
 
-Logger.info "Finished successfully.\nTotal rows checked: #{ cleaner.results[:total] }\nDeleted: #{ cleaner.results[:deleted] }"
+Megalogger.info <<-MSG
+Finished successfully
+Results:
+  Total;                #{ results[:total] }
+  Valid:                #{ results[:valid] }
+  Invalid:              #{ results[:invalid] }
+  Marked for deletion:  #{ results[:marked] }
+MSG
 

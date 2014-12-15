@@ -1,33 +1,38 @@
 defaults: &defaults
   data_api:
-    protocol: 'http'
-    server: 'some_server'
-    port: 8080
-    version: 'v1.0'
+    protocol:  http
+    server:    some_server
+    port:      8080
+    version:   v1.0
     resources:
-      keys_list: 'push_notification_target/describe_keys'
-      tokens_list: 'osn_recepients/list_tokens'
-      delete_token: 'osn_recepients/delete_recipient'
+      keys_list:     push_notification_target/describe_keys
+      tokens_list:   osn_recepients/list_tokens
+      delete_token:  osn_recepients/delete_recipient
 
   log:
-    level: :debug
+    level:  :debug
     stream:
-      stdout: true
-      files:
-      format:
+      stdout:  true
+      files: ['log.txt']
+    format:
 
   service:
     apns:
-      gateway: 'gateway.push.apple.com'
-      port:  2195
+      gateway:  'gateway.push.apple.com'
+      port:     2195
       retries:  3
     feedback:
       gateway:  "feedback.push.apple.com"
-      port: 2196
-      retries:  2
+      port:     2196
+      retries:  3
 
-  mysql:
-
+  database: &db
+    adapter:   mysql2
+    encoding:  utf8
+    pool:      5
+    username:  root
+    password:
+    host:      localhost
 
   threads:
     workers: 4
@@ -35,6 +40,12 @@ defaults: &defaults
 
 test:
   <<: *defaults
+  database:
+    <<: *db
+    database:  'db_cleaner_test'
 
 production:
   <<: *defaults
+  database:
+    <<: *db
+    database:  'db_cleaner_prod'

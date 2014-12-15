@@ -2,8 +2,8 @@ require 'logging'
 require 'forwardable'
 
 # Logs worflow process
-module Logger
-  PATH = File.join Cleaner::ROOT, 'logs'
+module Megalogger
+  PATH = File.expand_path 'logs'
   # for delegating module methods calls to @logger instance
   extend SingleForwardable
   def_delegators :@logger, :info, :warn, :error
@@ -15,7 +15,7 @@ module Logger
   @logger.add_appenders Logging.appenders.stdout if ::Settings.log.stream.stdout
 
   # configure logging to files
-  ::Settings.log.files.each do |file_name|
+  ::Settings.log.stream.files.each do |file_name|
     path_to_file = File.join PATH, file_name
     begin
       @logger.add_appenders Logging.appenders.file(path_to_file)

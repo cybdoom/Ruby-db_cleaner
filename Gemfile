@@ -6,7 +6,7 @@ gem 'settingslogic'
 gem 'thread'
 
 gem 'rest_client'
-gem 'redis'
+gem 'activerecord'
 gem 'hiredis'
 
 gem 'gcm'
