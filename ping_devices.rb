@@ -17,7 +17,8 @@ $results = {
     fetched:  0,
     saved:    0,
     pinged:   0
-  }
+  },
+  start_time: Time.now
 }
 
 ::Factory.new.launch
@@ -33,4 +34,5 @@ Results:
     Fetched:  #{ $results[:tokens][:fetched] }
     Saved:    #{ $results[:tokens][:saved] }
     Pinged:   #{ $results[:tokens][:pinged] }
+  Time:       #{ Time.now - $results[:start_time] }
 MSG

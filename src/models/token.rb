@@ -3,7 +3,7 @@ require 'active_record'
 class Token < ActiveRecord::Base
   belongs_to :key
 
-  scope :invalid, { where(valid: false) }
+  scope :invalid, -> { where(valid: false) }
 
   before_destroy :destroy_remote
 
@@ -23,7 +23,7 @@ class Token < ActiveRecord::Base
   end
 
   def remote_destroy
-    token_data = self.to_json.select {|key| [:token, :provider_name, :provider_version, :device_id].include?)] key }
+    token_data = self.to_json.select { |key| [:token, :provider_name, :provider_version, :device_id].include? key }
     Key.data_manipulator.delete_token token_data
   end
 end

@@ -1,23 +1,31 @@
-require File.join %w(src environment)
-
-require File.join %w(src settings)
-require File.join %w(src logger)
-require File.join %w(src models token)
+require_relative File.join %w(src environment)
+require_relative File.join %w(src settings)
+require_relative File.join %w(src logger)
+require_relative File.join %w(src models token)
 
 # connect to our db
 ActiveRecord::Base.establish_connection Settings.database
 
-$results = { total: Token.count }
+$results = {
+  tokens: {
+    total:       Token.count,
+    valid:       0,
+    invalid:     0,
+    marked:      0
+  },
+  start_time:  Time.now
+}
 
 # verify each token stored in our db
-Token.each &:verify
+Token.all.each &:verify
 
 Megalogger.info <<-MSG
 Finished successfully
 Results:
-  Total:                #{ $results[:total] }
-  Valid:                #{ $results[:valid] }
-  Invalid:              #{ $results[:invalid] }
-  Marked for deletion:  #{ $results[:marked] }
+  Tokens:
+    Total:                #{ $results[:tokens][:total] }
+    Valid:                #{ $results[:tokens][:valid] }
+    Invalid:              #{ $results[:tokens][:invalid] }
+    Marked for deletion:  #{ $results[:tokens][:marked] }
+  Time:                   #{ Time.now - $results[:start_time] }
 MSG
-
