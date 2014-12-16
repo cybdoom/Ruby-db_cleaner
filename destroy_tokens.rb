@@ -7,3 +7,9 @@ require File.join %w(src models token)
 ActiveRecord::Base.establish_connection Settings.database
 
 Token.invalid.each &:destroy
+
+Megalogger.info <<-MSG
+Finished successfully
+Results:
+  Destroyed: #{ result }
+MSG

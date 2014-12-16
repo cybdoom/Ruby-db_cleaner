@@ -40,6 +40,16 @@ defaults: &defaults
 
 test:
   <<: *defaults
+  data_api:
+    protocol:  http
+    server:    0.0.0.0
+    port:      4567
+    version:   v1.0
+    resources:
+      keys_list:     push_notification_target/describe_keys
+      tokens_list:   osn_recepients/list_tokens
+      delete_token:  osn_recepients/delete_recipient
+
   database:
     <<: *db
     database:  'db_cleaner_test'

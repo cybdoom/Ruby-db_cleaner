@@ -1,3 +1,0 @@
-ERROR  cleaner_db : Failed to fetch keys: unable to talk with the remote server
-ERROR  cleaner_db : Failed to fetch keys: unable to talk with the remote server
-ERROR  cleaner_db : Failed to fetch keys: unable to talk with the remote server
