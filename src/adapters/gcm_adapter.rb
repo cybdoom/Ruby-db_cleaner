@@ -28,7 +28,7 @@ module Adapters
       }
 
       response = @connection.send token, message
-      response[:results][:error] != 'NotRegistered'
+      response[:$results][:error] != 'NotRegistered'
     end
   end
 end

@@ -27,4 +27,11 @@ namespace :db do
   task :drop => :environment do
     ActiveRecord::Base.connection.drop_database Settings.database.database
   end
+
+  desc 'Cleans data tables'
+  task :clean => :environment do
+    connection = ActiveRecord::Base.connection
+    tables = connection.execute("SHOW TABLES").map { |r| r[0] }
+    tables.each { |t| connection.execute("TRUNCATE `#{t}`") }
+  end
 end

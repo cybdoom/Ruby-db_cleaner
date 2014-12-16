@@ -15,8 +15,8 @@ class Worker
           Megalogger.warn "Unknown token key, failed to save to db"
         else
           token = Token.create(token.merge(key_id: key.id))
-          results[:tokens][:saved] += 1 if token.persisted?
-          results[:tokens][:pinged] += 1 if token.ping
+          $results[:tokens][:saved] += 1 if token.persisted?
+          $results[:tokens][:pinged] += 1 if token.ping
         end
       end
 

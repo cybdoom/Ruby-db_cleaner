@@ -7,7 +7,7 @@ require File.join %w(src models token)
 # connect to our db
 ActiveRecord::Base.establish_connection Settings.database
 
-results = { total: Token.count }
+$results = { total: Token.count }
 
 # verify each token stored in our db
 Token.each &:verify
@@ -15,9 +15,9 @@ Token.each &:verify
 Megalogger.info <<-MSG
 Finished successfully
 Results:
-  Total:                #{ results[:total] }
-  Valid:                #{ results[:valid] }
-  Invalid:              #{ results[:invalid] }
-  Marked for deletion:  #{ results[:marked] }
+  Total:                #{ $results[:total] }
+  Valid:                #{ $results[:valid] }
+  Invalid:              #{ $results[:invalid] }
+  Marked for deletion:  #{ $results[:marked] }
 MSG
 

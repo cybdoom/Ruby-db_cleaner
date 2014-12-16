@@ -1,0 +1,745 @@
+W, [2014-12-16T12:20:27.768139 #4620]  WARN : Connection to APNS failed, used key: e195b46a7fd92647cd42a48f45e596fb4f6ff0dda17078d88d0ace751901d638
+W, [2014-12-16T12:20:27.794980 #4620]  WARN : Connection to APNS failed, used key: 10d77502f32f7d837ffc23f0f4de8e03a37b9ff6eb26dfb21d5368f312f2adaa
+W, [2014-12-16T12:20:27.801226 #4620]  WARN : Connection to APNS failed, used key: 1295a746a0eef58781e25b4ffbbf9795fec48da0505b58f63d2f702a5c93d393
+W, [2014-12-16T12:20:27.806212 #4620]  WARN : Connection to APNS failed, used key: b2c1d9ca232c291d38c480bc2d191b8207b4376df5f5af3a65156cbb855781da
+W, [2014-12-16T12:20:27.809681 #4620]  WARN : Connection to APNS failed, used key: f6898dbc2f2bb46a50a6b1142e0854a7e5d233ac72a23d652e15b1d3f2885280
+W, [2014-12-16T12:20:27.815378 #4620]  WARN : Connection to APNS failed, used key: 35a82511eb4c96a7e392e5a7c2524d7ef6968821332f44d87072fbe87dca5639
+W, [2014-12-16T12:20:27.817413 #4620]  WARN : Connection to APNS failed, used key: 8d37088f13a4dbd49736eab898006753b8438b45821bec44070759f8751ad4a3
+W, [2014-12-16T12:20:27.819729 #4620]  WARN : Connection to APNS failed, used key: fbc0e845b8f6efd5a72b1f4935fdf741249b6a89b275456fa998203fd6077ef2
+W, [2014-12-16T12:20:27.821990 #4620]  WARN : Connection to APNS failed, used key: aa773d51e71b9d42e7521743eddd087b9218bb8d0e1f45016b568da107052731
+W, [2014-12-16T12:20:27.823931 #4620]  WARN : Connection to APNS failed, used key: ceafa75f3492022b55a659a1fb1555f559d2ac3d651d46d56574fb846d594702
+W, [2014-12-16T12:20:27.825945 #4620]  WARN : Connection to APNS failed, used key: c103a341a4129ab4beff651d63933530610c178f1d1c133649a7582d4f252145
+W, [2014-12-16T12:20:27.827744 #4620]  WARN : Connection to APNS failed, used key: 8f8539a34fe5b41ac31a5cce6a6a172c5b1120d6c2c0ac418a86fa8411bfb89d
+W, [2014-12-16T12:20:27.829959 #4620]  WARN : Connection to APNS failed, used key: b3ae2ce05b735844b21af4c2f3951d1457e9d5cf5f6031a50b496614aa1eb17a
+W, [2014-12-16T12:20:27.831995 #4620]  WARN : Connection to APNS failed, used key: 59d706504e43c7eccaeae89f7721d53b1e872b1579db4faad196c8816970ec8a
+W, [2014-12-16T12:20:27.834060 #4620]  WARN : Connection to APNS failed, used key: fd57f2b8254f526de5102ed8a0f051ad68cea6cfc8e6eb2ea46dcb44ab33c729
+W, [2014-12-16T12:20:27.835998 #4620]  WARN : Connection to APNS failed, used key: 10b500703bb29dc786ab6cccaa7098993c54dcbed3752515792e2a5836637995
+W, [2014-12-16T12:20:27.837701 #4620]  WARN : Connection to APNS failed, used key: d2a2977908fee23bdc20c908a45248dc4ddf184ac3ebe0a6a92ea7cd3a6ad06a
+W, [2014-12-16T12:20:27.839469 #4620]  WARN : Connection to APNS failed, used key: f1c8c1fffaf83512b41449247136c3ea903d1d687bdeb8217b109f52da29f6ea
+W, [2014-12-16T12:20:27.841306 #4620]  WARN : Connection to APNS failed, used key: 89b91a6f846a8a9b71f9626b16d9fefb1a71cb440a9d079740b4bb654c72bbed
+W, [2014-12-16T12:20:27.842893 #4620]  WARN : Connection to APNS failed, used key: a8ba5fb500bd5953618837e655c9aa637d78f5d847bc57aedf3e51a7ab3010d9
+W, [2014-12-16T12:20:27.844549 #4620]  WARN : Connection to APNS failed, used key: 530fdd30d062ad501458fd53e049c0bb427b5a11d0c9ef603767baaf40ba26fa
+W, [2014-12-16T12:20:27.846181 #4620]  WARN : Connection to APNS failed, used key: 20fd068807cf05a9fae90c79e07329f04c06deedbda9a3ba22232ed54318448d
+W, [2014-12-16T12:20:27.847877 #4620]  WARN : Connection to APNS failed, used key: ba23d68a437e124f954582bc13dbb979339275582e6be211e9c3eefb7597c383
+W, [2014-12-16T12:20:27.850366 #4620]  WARN : Connection to APNS failed, used key: 496b9e0becea7b02636bc9f63b8bc7dfd519eec3e2c152e48cc39058dd901a2a
+W, [2014-12-16T12:20:27.852712 #4620]  WARN : Connection to APNS failed, used key: 079fa630bedf53084405e7f1e16b460a7e9b6033935402596e2a5c079295db23
+W, [2014-12-16T12:20:27.856053 #4620]  WARN : Connection to APNS failed, used key: 4c9a86d82e1f5f0dc2bf291cffd08ffc0f0fab338efe10661f8c1abb1d469428
+W, [2014-12-16T12:20:27.872724 #4620]  WARN : Connection to APNS failed, used key: 28c3c9c594a9ec89d1c73b85d6b92e1cae59200d703370e2b70a985b2b5b4667
+W, [2014-12-16T12:20:27.875008 #4620]  WARN : Connection to APNS failed, used key: d81c3de44ac0cf69006cc10857c0c94178bda6b7447a6cd33b086c58a1871911
+W, [2014-12-16T12:20:27.876892 #4620]  WARN : Connection to APNS failed, used key: 318abc200c9e2efd7b5df4ab68589ac098fd1bda846bddba3b56cbd47a006592
+W, [2014-12-16T12:20:27.878620 #4620]  WARN : Connection to APNS failed, used key: 8701f5d1957a7ca12b8a373edb6a4a470c29bdaf38758b89f31557a2907905eb
+W, [2014-12-16T12:20:27.880257 #4620]  WARN : Connection to APNS failed, used key: c947c72015828b4a3113daf3a40cc6f0acc988fc0bf12ac421f040c27f38af2e
+W, [2014-12-16T12:20:27.881816 #4620]  WARN : Connection to APNS failed, used key: ce7f7aac531abd96c146898bdbda004b3f06e3e2c7bb914f92129f4ffec0e357
+W, [2014-12-16T12:20:27.894385 #4620]  WARN : Connection to APNS failed, used key: 6ff351b4f19fed3845a7df7a90a9e3c2b88527c54d86daea17d3042339d0629a
+W, [2014-12-16T12:20:27.896522 #4620]  WARN : Connection to APNS failed, used key: 17c9c92c03164489e9b08b2804863626f85869e8cce9ce3ee76db3aba31edab6
+W, [2014-12-16T12:20:27.898938 #4620]  WARN : Connection to APNS failed, used key: 9950145cb10d6fc3c76f07672a5940258a2dd59ecda132eaa66242b02857c6a9
+W, [2014-12-16T12:20:27.901299 #4620]  WARN : Connection to APNS failed, used key: 44c2046cc34a8c001b8992e362f8853db4f1bc8bee8cfe94298ca8f1d1656206
+W, [2014-12-16T12:20:27.903796 #4620]  WARN : Connection to APNS failed, used key: c32e845ccfe4970e2342f76182fc8aba7f7262f2f71fcd6bbaa310eb4ec833b1
+W, [2014-12-16T12:20:27.906155 #4620]  WARN : Connection to APNS failed, used key: edf6b89ec71ab2962aa75066c9475fc0e877cf6f8911df4e5f74df84f0b9abf7
+W, [2014-12-16T12:20:27.922194 #4620]  WARN : Connection to APNS failed, used key: ae5e83392be9191f8353c856f2c54d4f3a0c12c0fd0450557560bcb3d53e2255
+W, [2014-12-16T12:20:27.931753 #4620]  WARN : Connection to APNS failed, used key: e9fe3790d77ac32208eb025646731219abbe6ba45b61d6e1602474899b8a5260
+W, [2014-12-16T12:20:27.934064 #4620]  WARN : Connection to APNS failed, used key: ecdf9e58186e24086c12cb0d84295c36c51eab01d7843208a3f7e135f04fb796
+W, [2014-12-16T12:20:27.937454 #4620]  WARN : Connection to APNS failed, used key: 713e3c467417949886221e80566d1f7563a394a512365db93c14f9ce5b541f36
+W, [2014-12-16T12:20:27.939774 #4620]  WARN : Connection to APNS failed, used key: e02338810e7c5859729896b272d7ee0c33d5ea74c84eb3db5fbe73c0d3816f4f
+W, [2014-12-16T12:20:27.941522 #4620]  WARN : Connection to APNS failed, used key: fa1b9c6f48a59bcef776a79e8ae30b29f164da475a2bdcb50cf57ca94b8cf066
+W, [2014-12-16T12:20:27.943762 #4620]  WARN : Connection to APNS failed, used key: 6cd6f652abca5375dbeb10c57b7ffff2d39c8d8ac6efc0785adc8575cd08ae0f
+W, [2014-12-16T12:20:27.945562 #4620]  WARN : Connection to APNS failed, used key: aac8f77985784dc5709585723536a2d03f606a1d945acd613c9cfcdf86658aa5
+W, [2014-12-16T12:20:27.947531 #4620]  WARN : Connection to APNS failed, used key: 9957dd43c2aea0c4c9bcac628ce32ad7c22efd4a8dcb7c7bddf3c16260b43e8a
+W, [2014-12-16T12:20:27.949500 #4620]  WARN : Connection to APNS failed, used key: 114d1ef074da9d4ac4750d69969dbf5db19169fcbfc2e8d98ce32c721cc24275
+W, [2014-12-16T12:20:27.951434 #4620]  WARN : Connection to APNS failed, used key: 84f1c65ee522fe7dbf3854660d122255192e02656d9c4e72444215a18c674bf6
+W, [2014-12-16T12:20:27.953290 #4620]  WARN : Connection to APNS failed, used key: d43eecc87e145d03a1127743ac6572ca23732c3ad4185eb86111fb9a43f5ad76
+W, [2014-12-16T12:20:27.955422 #4620]  WARN : Connection to APNS failed, used key: d44e3b4be299480149edd8e69387c6ac8afa68619d82905599cb10b15248aeed
+W, [2014-12-16T12:20:27.971714 #4620]  WARN : Connection to APNS failed, used key: 8c66217b4ce797a263353175f70156fd87f34faf137ff5ecda5dbe9ff10e728b
+W, [2014-12-16T12:20:27.975074 #4620]  WARN : Connection to APNS failed, used key: e44313f5753e65777cf50ae92fcb3a6afb0f4149cc8ed4ccc05632d3981eae8d
+W, [2014-12-16T12:20:27.977035 #4620]  WARN : Connection to APNS failed, used key: 661c619cdeecb575d28e8c9eb49ed78f6c5644c0390b842a4624e47f726fb687
+W, [2014-12-16T12:20:27.978890 #4620]  WARN : Connection to APNS failed, used key: c9869fe89835e75a837eae4334106292d0bd018473e2deef4e6622df4864e34d
+W, [2014-12-16T12:20:27.980829 #4620]  WARN : Connection to APNS failed, used key: 553f96f3acf5b7aef2a3a8acedd6a7de58c2cf5fe4cc5f6f3f58a07b4036d0a4
+W, [2014-12-16T12:20:27.982926 #4620]  WARN : Connection to APNS failed, used key: dd12aea6fcbfafb0e1ce501577aa15c88e92a413c27722304ce7379e850dee9f
+W, [2014-12-16T12:20:27.985114 #4620]  WARN : Connection to APNS failed, used key: dbefac24f38d5e3bba4b770170348661eb7e7fbe212cfae187f40bf99d268b27
+W, [2014-12-16T12:20:27.987193 #4620]  WARN : Connection to APNS failed, used key: 1b34052c901839042403a0102a02cc3bcdbee46450ce871d4b924645a633f846
+W, [2014-12-16T12:20:27.989527 #4620]  WARN : Connection to APNS failed, used key: c432281ceb01b2a2fbef4d978b87dc948f116f373f166e4513a13c54f32e5e5e
+W, [2014-12-16T12:20:27.991513 #4620]  WARN : Connection to APNS failed, used key: 0360cc5a593d8611f735d2dc05b5f4703ef7850cfec726254665e26b58fde03e
+W, [2014-12-16T12:20:27.993117 #4620]  WARN : Connection to APNS failed, used key: 8e81512395bed7e7f3961a1ecd4973e50799a6894c9fc34b1a8f418b136fe80b
+W, [2014-12-16T12:20:27.995259 #4620]  WARN : Connection to APNS failed, used key: 9314c5f5fc11f2578674012cde86ffffcac422ad9c8917733625779913310e7c
+W, [2014-12-16T12:20:28.003440 #4620]  WARN : Connection to APNS failed, used key: 6622df118c0e2e2cf0306ef200cd18e25ccaf4815e0c03b25e739fba0e4764f6
+W, [2014-12-16T12:20:28.008400 #4620]  WARN : Connection to APNS failed, used key: 8952bd80311a866c2944aed96e3c736c906bd26d57d1f51ec40bdf37c7ecddde
+W, [2014-12-16T12:20:28.010499 #4620]  WARN : Connection to APNS failed, used key: 46120d5415f17d46a884c6d0aef23aa84453a506cbcc00f695789814885365d6
+W, [2014-12-16T12:20:28.012808 #4620]  WARN : Connection to APNS failed, used key: f03035fc6bb07b1fb50ff021c2b10f36918f8f0d38d53c3ca8dfcd0aaec9bc3f
+W, [2014-12-16T12:20:28.014658 #4620]  WARN : Connection to APNS failed, used key: 7a81cd29be79a030b6bfec0d2f97759d919fa7a41b798e8f802f27c49e49b53d
+W, [2014-12-16T12:20:28.016804 #4620]  WARN : Connection to APNS failed, used key: 27e3089c2cdb420a2e54100e3ba522495bf6d28c283bcc319954131c05b0e15b
+W, [2014-12-16T12:20:28.020528 #4620]  WARN : Connection to APNS failed, used key: 0a81c4e844eeae6c1ba0819012bf70a05b545309e02c6c02e881ca05181cd944
+W, [2014-12-16T12:20:28.022752 #4620]  WARN : Connection to APNS failed, used key: 3e9b2f25a12d5cb195bc5dd2cabeef53a0cdbbdd865d51042b0e1187b0c873ad
+W, [2014-12-16T12:20:28.024527 #4620]  WARN : Connection to APNS failed, used key: e399b0cdcf5019ae66d68f10f5955c8cba59ee6a8b88739ac4822899298f76a2
+W, [2014-12-16T12:20:28.026177 #4620]  WARN : Connection to APNS failed, used key: d363fb9b6f8453f249363225c3e654f9efc7d2187ed7f882a8d2c6c52835dbdf
+W, [2014-12-16T12:20:28.027683 #4620]  WARN : Connection to APNS failed, used key: 6b733e5b421d769573cb9e0a228ecfb9e8c985f69eee32733f3f495b7ff34d08
+W, [2014-12-16T12:20:28.029499 #4620]  WARN : Connection to APNS failed, used key: 6b232e8a548350dfa1fac99d591fc504e7f8f467f46f58194f386e1f986820b5
+W, [2014-12-16T12:20:28.031583 #4620]  WARN : Connection to APNS failed, used key: 59871003e150d81edd38a2cf07775f860cc8a6b17c088177db2c92ee991666cb
+W, [2014-12-16T12:20:28.034208 #4620]  WARN : Connection to APNS failed, used key: b7cc1ac5a2147f6a64598a7d54733c9e15cb1c3cc4883281d542f208403ca93f
+W, [2014-12-16T12:20:28.036557 #4620]  WARN : Connection to APNS failed, used key: a31deb32ffe4e59320dfb25503ef2ced63291806015f3441d3cba43a924e25b7
+W, [2014-12-16T12:20:28.038555 #4620]  WARN : Connection to APNS failed, used key: 9edc5220c74178c3e3edbbf5baa6a2752758c09bdd5aa56f4dcd8cb86055702a
+W, [2014-12-16T12:20:28.040535 #4620]  WARN : Connection to APNS failed, used key: f6ecf486001f85ba681d3e0414556d7bb2836191507b4f0f6aa3ceb64d4d7d66
+W, [2014-12-16T12:20:28.044680 #4620]  WARN : Connection to APNS failed, used key: 538ef482d0dc097f8930dc12cd0a31ad4a0cf3745a3312b12d301b23176beb36
+W, [2014-12-16T12:20:28.047078 #4620]  WARN : Connection to APNS failed, used key: 1a036c7e8afd8f6619846125c024f5388355e875b8f81543a390d5ed17418313
+W, [2014-12-16T12:20:28.049263 #4620]  WARN : Connection to APNS failed, used key: 0003008e710bb96cf1379628796a855dbd62883582ae73693fbe27378ab04c03
+W, [2014-12-16T12:20:28.051357 #4620]  WARN : Connection to APNS failed, used key: 8bbe439c70cb6d485e392b5dd080b7f25aba51017e703937138ac82d974cb843
+W, [2014-12-16T12:20:28.053473 #4620]  WARN : Connection to APNS failed, used key: 3ec7a49b345902e21be95efc271721bf332caa57df6fddc9715bfa7400a912ea
+W, [2014-12-16T12:20:28.055070 #4620]  WARN : Connection to APNS failed, used key: 42ba2f4e147f857c159c38825623e8de2a5ddd70349a0bc37b018c2ee152a4ce
+W, [2014-12-16T12:20:28.057314 #4620]  WARN : Connection to APNS failed, used key: 4cdf7b8bd363f888863d66b6a2463e0a3b59801dbb5ba870aad69742ff8e9c99
+W, [2014-12-16T12:20:28.059615 #4620]  WARN : Connection to APNS failed, used key: 53ae20f81378a0a96438212e3acff22b65118a0131e9307b37fb49a2802ba0b2
+W, [2014-12-16T12:20:28.061226 #4620]  WARN : Connection to APNS failed, used key: 339148245a3a0dea132562c22fbca5eef4ba6fec18fa11bc7ab3b56427cc94e9
+W, [2014-12-16T12:20:28.062875 #4620]  WARN : Connection to APNS failed, used key: fd5aed18909e95e16b560657e7d867d8f684501c6f380c276bbc6a6819dac7db
+W, [2014-12-16T12:20:28.064665 #4620]  WARN : Connection to APNS failed, used key: f49399690dcf9f0388afba17226490ce92903ad145cf0880bbcf1d155ad64c3f
+W, [2014-12-16T12:20:28.066369 #4620]  WARN : Connection to APNS failed, used key: b6b00c58fdf3511f51df77149211b9085c035d8b24313761ff485dfed70aea02
+W, [2014-12-16T12:20:28.068425 #4620]  WARN : Connection to APNS failed, used key: 03e77925dc3443868d0df1145afcf086404a1b8df3686ce7021d0902d5da8a27
+W, [2014-12-16T12:20:28.070669 #4620]  WARN : Connection to APNS failed, used key: 3db6cb5a9b09a87f9316227fec2587f8d61313e7a85ef7f106ac0e81fbe1e31a
+W, [2014-12-16T12:20:28.072840 #4620]  WARN : Connection to APNS failed, used key: 44aea70497e128d5f5b70a4bac17b02e66ead044441fd98a376a1f3057670ad7
+W, [2014-12-16T12:20:28.075939 #4620]  WARN : Connection to APNS failed, used key: cb83f20ed7df69b36cd30f289e6b9a8cb56650ad7cdd8580b1dbb4d525b28580
+W, [2014-12-16T12:20:28.078178 #4620]  WARN : Connection to APNS failed, used key: f81b9993fdff0430cf7a3630f70c83368e9efc2bc178f45c24b76d7aa2412c2e
+W, [2014-12-16T12:20:28.080408 #4620]  WARN : Connection to APNS failed, used key: 7d8a3b1562fb31228195c1dd4c6ac7fe1eb0cf157a174f6f5653c3c2a8f5e108
+W, [2014-12-16T12:20:28.082723 #4620]  WARN : Connection to APNS failed, used key: 17a32b547f53c6428d8f60809e1c1fc5c4d816dc8e2540256bfa3bfa1efb06b9
+W, [2014-12-16T12:20:28.084702 #4620]  WARN : Connection to APNS failed, used key: cf9780a0b552b49e7fdb7386d2567bbdc70d8633478467a18f1a8932cf151e15
+I, [2014-12-16T12:20:28.084869 #4620]  INFO : Finished successfully
+Results:
+  Keys:
+    Fetched:  100
+    Saved:    100
+    Valid:    0
+  Tokens:
+    Fetched:  0
+    Saved:    0
+    Pinged:   0
+
+W, [2014-12-16T12:24:08.462961 #4662]  WARN : Key already exists for GCM platform and v1 version 
+W, [2014-12-16T12:28:05.448842 #4679]  WARN : Key already exists for GCM platform and v1 version 
+W, [2014-12-16T12:28:05.491359 #4679]  WARN : Connection to APNS failed, used key: e195b46a7fd92647cd42a48f45e596fb4f6ff0dda17078d88d0ace751901d638
+W, [2014-12-16T12:28:05.496311 #4679]  WARN : Key already exists for GCM platform and v2 version 
+W, [2014-12-16T12:28:05.497658 #4679]  WARN : Connection to APNS failed, used key: 10d77502f32f7d837ffc23f0f4de8e03a37b9ff6eb26dfb21d5368f312f2adaa
+W, [2014-12-16T12:28:05.500650 #4679]  WARN : Key already exists for APNS platform and v3 version 
+W, [2014-12-16T12:28:05.502479 #4679]  WARN : Connection to APNS failed, used key: 1295a746a0eef58781e25b4ffbbf9795fec48da0505b58f63d2f702a5c93d393
+W, [2014-12-16T12:28:05.505553 #4679]  WARN : Key already exists for GCM platform and v4 version 
+W, [2014-12-16T12:28:05.506591 #4679]  WARN : Connection to APNS failed, used key: b2c1d9ca232c291d38c480bc2d191b8207b4376df5f5af3a65156cbb855781da
+W, [2014-12-16T12:28:05.510108 #4679]  WARN : Key already exists for GCM platform and v5 version 
+W, [2014-12-16T12:28:05.511357 #4679]  WARN : Connection to APNS failed, used key: f6898dbc2f2bb46a50a6b1142e0854a7e5d233ac72a23d652e15b1d3f2885280
+W, [2014-12-16T12:28:05.513199 #4679]  WARN : Key already exists for GCM platform and v6 version 
+W, [2014-12-16T12:28:05.514227 #4679]  WARN : Connection to APNS failed, used key: 35a82511eb4c96a7e392e5a7c2524d7ef6968821332f44d87072fbe87dca5639
+W, [2014-12-16T12:28:05.516276 #4679]  WARN : Key already exists for GCM platform and v7 version 
+W, [2014-12-16T12:28:05.517192 #4679]  WARN : Connection to APNS failed, used key: 8d37088f13a4dbd49736eab898006753b8438b45821bec44070759f8751ad4a3
+W, [2014-12-16T12:28:05.518896 #4679]  WARN : Key already exists for APNS platform and v8 version 
+W, [2014-12-16T12:28:05.522712 #4679]  WARN : Connection to APNS failed, used key: fbc0e845b8f6efd5a72b1f4935fdf741249b6a89b275456fa998203fd6077ef2
+W, [2014-12-16T12:28:05.524666 #4679]  WARN : Key already exists for APNS platform and v9 version 
+W, [2014-12-16T12:28:05.525918 #4679]  WARN : Connection to APNS failed, used key: aa773d51e71b9d42e7521743eddd087b9218bb8d0e1f45016b568da107052731
+W, [2014-12-16T12:28:05.527626 #4679]  WARN : Key already exists for APNS platform and v10 version 
+W, [2014-12-16T12:28:05.528803 #4679]  WARN : Connection to APNS failed, used key: ceafa75f3492022b55a659a1fb1555f559d2ac3d651d46d56574fb846d594702
+W, [2014-12-16T12:28:05.530533 #4679]  WARN : Key already exists for APNS platform and v11 version 
+W, [2014-12-16T12:28:05.531991 #4679]  WARN : Connection to APNS failed, used key: c103a341a4129ab4beff651d63933530610c178f1d1c133649a7582d4f252145
+W, [2014-12-16T12:28:05.533963 #4679]  WARN : Key already exists for GCM platform and v12 version 
+W, [2014-12-16T12:28:05.534966 #4679]  WARN : Connection to APNS failed, used key: 8f8539a34fe5b41ac31a5cce6a6a172c5b1120d6c2c0ac418a86fa8411bfb89d
+W, [2014-12-16T12:28:05.536777 #4679]  WARN : Key already exists for APNS platform and v13 version 
+W, [2014-12-16T12:28:05.538002 #4679]  WARN : Connection to APNS failed, used key: b3ae2ce05b735844b21af4c2f3951d1457e9d5cf5f6031a50b496614aa1eb17a
+W, [2014-12-16T12:28:05.578208 #4679]  WARN : Key already exists for GCM platform and v14 version 
+W, [2014-12-16T12:28:05.579407 #4679]  WARN : Connection to APNS failed, used key: 59d706504e43c7eccaeae89f7721d53b1e872b1579db4faad196c8816970ec8a
+W, [2014-12-16T12:28:05.581401 #4679]  WARN : Key already exists for APNS platform and v15 version 
+W, [2014-12-16T12:28:05.582808 #4679]  WARN : Connection to APNS failed, used key: fd57f2b8254f526de5102ed8a0f051ad68cea6cfc8e6eb2ea46dcb44ab33c729
+W, [2014-12-16T12:28:05.584855 #4679]  WARN : Key already exists for APNS platform and v16 version 
+W, [2014-12-16T12:28:05.586209 #4679]  WARN : Connection to APNS failed, used key: 10b500703bb29dc786ab6cccaa7098993c54dcbed3752515792e2a5836637995
+W, [2014-12-16T12:28:05.588167 #4679]  WARN : Key already exists for GCM platform and v17 version 
+W, [2014-12-16T12:28:05.589175 #4679]  WARN : Connection to APNS failed, used key: d2a2977908fee23bdc20c908a45248dc4ddf184ac3ebe0a6a92ea7cd3a6ad06a
+W, [2014-12-16T12:28:05.591069 #4679]  WARN : Key already exists for GCM platform and v18 version 
+W, [2014-12-16T12:28:05.592066 #4679]  WARN : Connection to APNS failed, used key: f1c8c1fffaf83512b41449247136c3ea903d1d687bdeb8217b109f52da29f6ea
+W, [2014-12-16T12:28:05.593940 #4679]  WARN : Key already exists for APNS platform and v19 version 
+W, [2014-12-16T12:28:05.595277 #4679]  WARN : Connection to APNS failed, used key: 89b91a6f846a8a9b71f9626b16d9fefb1a71cb440a9d079740b4bb654c72bbed
+W, [2014-12-16T12:28:05.597240 #4679]  WARN : Key already exists for GCM platform and v20 version 
+W, [2014-12-16T12:28:05.598184 #4679]  WARN : Connection to APNS failed, used key: a8ba5fb500bd5953618837e655c9aa637d78f5d847bc57aedf3e51a7ab3010d9
+W, [2014-12-16T12:28:05.599871 #4679]  WARN : Key already exists for GCM platform and v21 version 
+W, [2014-12-16T12:28:05.600739 #4679]  WARN : Connection to APNS failed, used key: 530fdd30d062ad501458fd53e049c0bb427b5a11d0c9ef603767baaf40ba26fa
+W, [2014-12-16T12:28:05.602350 #4679]  WARN : Key already exists for GCM platform and v22 version 
+W, [2014-12-16T12:28:05.603194 #4679]  WARN : Connection to APNS failed, used key: 20fd068807cf05a9fae90c79e07329f04c06deedbda9a3ba22232ed54318448d
+W, [2014-12-16T12:28:05.604838 #4679]  WARN : Key already exists for GCM platform and v23 version 
+W, [2014-12-16T12:28:05.605610 #4679]  WARN : Connection to APNS failed, used key: ba23d68a437e124f954582bc13dbb979339275582e6be211e9c3eefb7597c383
+W, [2014-12-16T12:28:05.607231 #4679]  WARN : Key already exists for APNS platform and v24 version 
+W, [2014-12-16T12:28:05.608387 #4679]  WARN : Connection to APNS failed, used key: 496b9e0becea7b02636bc9f63b8bc7dfd519eec3e2c152e48cc39058dd901a2a
+W, [2014-12-16T12:28:05.610069 #4679]  WARN : Key already exists for APNS platform and v25 version 
+W, [2014-12-16T12:28:05.611163 #4679]  WARN : Connection to APNS failed, used key: 079fa630bedf53084405e7f1e16b460a7e9b6033935402596e2a5c079295db23
+W, [2014-12-16T12:28:05.612888 #4679]  WARN : Key already exists for APNS platform and v26 version 
+W, [2014-12-16T12:28:05.613962 #4679]  WARN : Connection to APNS failed, used key: 4c9a86d82e1f5f0dc2bf291cffd08ffc0f0fab338efe10661f8c1abb1d469428
+W, [2014-12-16T12:28:05.615717 #4679]  WARN : Key already exists for GCM platform and v27 version 
+W, [2014-12-16T12:28:05.616797 #4679]  WARN : Connection to APNS failed, used key: 28c3c9c594a9ec89d1c73b85d6b92e1cae59200d703370e2b70a985b2b5b4667
+W, [2014-12-16T12:28:05.618663 #4679]  WARN : Key already exists for APNS platform and v28 version 
+W, [2014-12-16T12:28:05.619909 #4679]  WARN : Connection to APNS failed, used key: d81c3de44ac0cf69006cc10857c0c94178bda6b7447a6cd33b086c58a1871911
+W, [2014-12-16T12:28:05.621708 #4679]  WARN : Key already exists for GCM platform and v29 version 
+W, [2014-12-16T12:28:05.622691 #4679]  WARN : Connection to APNS failed, used key: 318abc200c9e2efd7b5df4ab68589ac098fd1bda846bddba3b56cbd47a006592
+W, [2014-12-16T12:28:05.624515 #4679]  WARN : Key already exists for GCM platform and v30 version 
+W, [2014-12-16T12:28:05.625364 #4679]  WARN : Connection to APNS failed, used key: 8701f5d1957a7ca12b8a373edb6a4a470c29bdaf38758b89f31557a2907905eb
+W, [2014-12-16T12:28:05.627372 #4679]  WARN : Key already exists for GCM platform and v31 version 
+W, [2014-12-16T12:28:05.628193 #4679]  WARN : Connection to APNS failed, used key: c947c72015828b4a3113daf3a40cc6f0acc988fc0bf12ac421f040c27f38af2e
+W, [2014-12-16T12:28:05.644226 #4679]  WARN : Key already exists for GCM platform and v32 version 
+W, [2014-12-16T12:28:05.645343 #4679]  WARN : Connection to APNS failed, used key: ce7f7aac531abd96c146898bdbda004b3f06e3e2c7bb914f92129f4ffec0e357
+W, [2014-12-16T12:28:05.647304 #4679]  WARN : Key already exists for GCM platform and v33 version 
+W, [2014-12-16T12:28:05.648282 #4679]  WARN : Connection to APNS failed, used key: 6ff351b4f19fed3845a7df7a90a9e3c2b88527c54d86daea17d3042339d0629a
+W, [2014-12-16T12:28:05.650030 #4679]  WARN : Key already exists for GCM platform and v34 version 
+W, [2014-12-16T12:28:05.650972 #4679]  WARN : Connection to APNS failed, used key: 17c9c92c03164489e9b08b2804863626f85869e8cce9ce3ee76db3aba31edab6
+W, [2014-12-16T12:28:05.652626 #4679]  WARN : Key already exists for APNS platform and v35 version 
+W, [2014-12-16T12:28:05.653703 #4679]  WARN : Connection to APNS failed, used key: 9950145cb10d6fc3c76f07672a5940258a2dd59ecda132eaa66242b02857c6a9
+W, [2014-12-16T12:28:05.655356 #4679]  WARN : Key already exists for APNS platform and v36 version 
+W, [2014-12-16T12:28:05.656419 #4679]  WARN : Connection to APNS failed, used key: 44c2046cc34a8c001b8992e362f8853db4f1bc8bee8cfe94298ca8f1d1656206
+W, [2014-12-16T12:28:05.658407 #4679]  WARN : Key already exists for APNS platform and v37 version 
+W, [2014-12-16T12:28:05.659691 #4679]  WARN : Connection to APNS failed, used key: c32e845ccfe4970e2342f76182fc8aba7f7262f2f71fcd6bbaa310eb4ec833b1
+W, [2014-12-16T12:28:05.661887 #4679]  WARN : Key already exists for APNS platform and v38 version 
+W, [2014-12-16T12:28:05.664486 #4679]  WARN : Connection to APNS failed, used key: edf6b89ec71ab2962aa75066c9475fc0e877cf6f8911df4e5f74df84f0b9abf7
+W, [2014-12-16T12:28:05.666622 #4679]  WARN : Key already exists for APNS platform and v39 version 
+W, [2014-12-16T12:28:05.667753 #4679]  WARN : Connection to APNS failed, used key: ae5e83392be9191f8353c856f2c54d4f3a0c12c0fd0450557560bcb3d53e2255
+W, [2014-12-16T12:28:05.669900 #4679]  WARN : Key already exists for GCM platform and v40 version 
+W, [2014-12-16T12:28:05.672310 #4679]  WARN : Connection to APNS failed, used key: e9fe3790d77ac32208eb025646731219abbe6ba45b61d6e1602474899b8a5260
+W, [2014-12-16T12:28:05.674582 #4679]  WARN : Key already exists for APNS platform and v41 version 
+W, [2014-12-16T12:28:05.675911 #4679]  WARN : Connection to APNS failed, used key: ecdf9e58186e24086c12cb0d84295c36c51eab01d7843208a3f7e135f04fb796
+W, [2014-12-16T12:28:05.678145 #4679]  WARN : Key already exists for APNS platform and v42 version 
+W, [2014-12-16T12:28:05.680753 #4679]  WARN : Connection to APNS failed, used key: 713e3c467417949886221e80566d1f7563a394a512365db93c14f9ce5b541f36
+W, [2014-12-16T12:28:05.683306 #4679]  WARN : Key already exists for APNS platform and v43 version 
+W, [2014-12-16T12:28:05.684810 #4679]  WARN : Connection to APNS failed, used key: e02338810e7c5859729896b272d7ee0c33d5ea74c84eb3db5fbe73c0d3816f4f
+W, [2014-12-16T12:28:05.686833 #4679]  WARN : Key already exists for GCM platform and v44 version 
+W, [2014-12-16T12:28:05.688078 #4679]  WARN : Connection to APNS failed, used key: fa1b9c6f48a59bcef776a79e8ae30b29f164da475a2bdcb50cf57ca94b8cf066
+W, [2014-12-16T12:28:05.690185 #4679]  WARN : Key already exists for APNS platform and v45 version 
+W, [2014-12-16T12:28:05.691378 #4679]  WARN : Connection to APNS failed, used key: 6cd6f652abca5375dbeb10c57b7ffff2d39c8d8ac6efc0785adc8575cd08ae0f
+W, [2014-12-16T12:28:05.693235 #4679]  WARN : Key already exists for GCM platform and v46 version 
+W, [2014-12-16T12:28:05.694144 #4679]  WARN : Connection to APNS failed, used key: aac8f77985784dc5709585723536a2d03f606a1d945acd613c9cfcdf86658aa5
+W, [2014-12-16T12:28:05.695903 #4679]  WARN : Key already exists for GCM platform and v47 version 
+W, [2014-12-16T12:28:05.696732 #4679]  WARN : Connection to APNS failed, used key: 9957dd43c2aea0c4c9bcac628ce32ad7c22efd4a8dcb7c7bddf3c16260b43e8a
+W, [2014-12-16T12:28:05.698409 #4679]  WARN : Key already exists for GCM platform and v48 version 
+W, [2014-12-16T12:28:05.699559 #4679]  WARN : Connection to APNS failed, used key: 114d1ef074da9d4ac4750d69969dbf5db19169fcbfc2e8d98ce32c721cc24275
+W, [2014-12-16T12:28:05.701677 #4679]  WARN : Key already exists for APNS platform and v49 version 
+W, [2014-12-16T12:28:05.703183 #4679]  WARN : Connection to APNS failed, used key: 84f1c65ee522fe7dbf3854660d122255192e02656d9c4e72444215a18c674bf6
+W, [2014-12-16T12:28:05.706721 #4679]  WARN : Key already exists for APNS platform and v50 version 
+W, [2014-12-16T12:28:05.707993 #4679]  WARN : Connection to APNS failed, used key: d43eecc87e145d03a1127743ac6572ca23732c3ad4185eb86111fb9a43f5ad76
+W, [2014-12-16T12:28:05.709908 #4679]  WARN : Key already exists for APNS platform and v51 version 
+W, [2014-12-16T12:28:05.711216 #4679]  WARN : Connection to APNS failed, used key: d44e3b4be299480149edd8e69387c6ac8afa68619d82905599cb10b15248aeed
+W, [2014-12-16T12:28:05.713196 #4679]  WARN : Key already exists for GCM platform and v52 version 
+W, [2014-12-16T12:28:05.714264 #4679]  WARN : Connection to APNS failed, used key: 8c66217b4ce797a263353175f70156fd87f34faf137ff5ecda5dbe9ff10e728b
+W, [2014-12-16T12:28:05.716825 #4679]  WARN : Key already exists for GCM platform and v53 version 
+W, [2014-12-16T12:28:05.717756 #4679]  WARN : Connection to APNS failed, used key: e44313f5753e65777cf50ae92fcb3a6afb0f4149cc8ed4ccc05632d3981eae8d
+W, [2014-12-16T12:28:05.719379 #4679]  WARN : Key already exists for APNS platform and v54 version 
+W, [2014-12-16T12:28:05.720505 #4679]  WARN : Connection to APNS failed, used key: 661c619cdeecb575d28e8c9eb49ed78f6c5644c0390b842a4624e47f726fb687
+W, [2014-12-16T12:28:05.722197 #4679]  WARN : Key already exists for APNS platform and v55 version 
+W, [2014-12-16T12:28:05.723336 #4679]  WARN : Connection to APNS failed, used key: c9869fe89835e75a837eae4334106292d0bd018473e2deef4e6622df4864e34d
+W, [2014-12-16T12:28:05.725192 #4679]  WARN : Key already exists for APNS platform and v56 version 
+W, [2014-12-16T12:28:05.726364 #4679]  WARN : Connection to APNS failed, used key: 553f96f3acf5b7aef2a3a8acedd6a7de58c2cf5fe4cc5f6f3f58a07b4036d0a4
+W, [2014-12-16T12:28:05.728230 #4679]  WARN : Key already exists for APNS platform and v57 version 
+W, [2014-12-16T12:28:05.729629 #4679]  WARN : Connection to APNS failed, used key: dd12aea6fcbfafb0e1ce501577aa15c88e92a413c27722304ce7379e850dee9f
+W, [2014-12-16T12:28:05.731554 #4679]  WARN : Key already exists for APNS platform and v58 version 
+W, [2014-12-16T12:28:05.732868 #4679]  WARN : Connection to APNS failed, used key: dbefac24f38d5e3bba4b770170348661eb7e7fbe212cfae187f40bf99d268b27
+W, [2014-12-16T12:28:05.734680 #4679]  WARN : Key already exists for APNS platform and v59 version 
+W, [2014-12-16T12:28:05.735912 #4679]  WARN : Connection to APNS failed, used key: 1b34052c901839042403a0102a02cc3bcdbee46450ce871d4b924645a633f846
+W, [2014-12-16T12:28:05.738834 #4679]  WARN : Key already exists for GCM platform and v60 version 
+W, [2014-12-16T12:28:05.739731 #4679]  WARN : Connection to APNS failed, used key: c432281ceb01b2a2fbef4d978b87dc948f116f373f166e4513a13c54f32e5e5e
+W, [2014-12-16T12:28:05.741768 #4679]  WARN : Key already exists for GCM platform and v61 version 
+W, [2014-12-16T12:28:05.742757 #4679]  WARN : Connection to APNS failed, used key: 0360cc5a593d8611f735d2dc05b5f4703ef7850cfec726254665e26b58fde03e
+W, [2014-12-16T12:28:05.744557 #4679]  WARN : Key already exists for GCM platform and v62 version 
+W, [2014-12-16T12:28:05.745465 #4679]  WARN : Connection to APNS failed, used key: 8e81512395bed7e7f3961a1ecd4973e50799a6894c9fc34b1a8f418b136fe80b
+W, [2014-12-16T12:28:05.747251 #4679]  WARN : Key already exists for GCM platform and v63 version 
+W, [2014-12-16T12:28:05.748225 #4679]  WARN : Connection to APNS failed, used key: 9314c5f5fc11f2578674012cde86ffffcac422ad9c8917733625779913310e7c
+W, [2014-12-16T12:28:05.749959 #4679]  WARN : Key already exists for GCM platform and v64 version 
+W, [2014-12-16T12:28:05.750758 #4679]  WARN : Connection to APNS failed, used key: 6622df118c0e2e2cf0306ef200cd18e25ccaf4815e0c03b25e739fba0e4764f6
+W, [2014-12-16T12:28:05.752340 #4679]  WARN : Key already exists for APNS platform and v65 version 
+W, [2014-12-16T12:28:05.753445 #4679]  WARN : Connection to APNS failed, used key: 8952bd80311a866c2944aed96e3c736c906bd26d57d1f51ec40bdf37c7ecddde
+W, [2014-12-16T12:28:05.755144 #4679]  WARN : Key already exists for APNS platform and v66 version 
+W, [2014-12-16T12:28:05.756286 #4679]  WARN : Connection to APNS failed, used key: 46120d5415f17d46a884c6d0aef23aa84453a506cbcc00f695789814885365d6
+W, [2014-12-16T12:28:05.758453 #4679]  WARN : Key already exists for APNS platform and v67 version 
+W, [2014-12-16T12:28:05.759733 #4679]  WARN : Connection to APNS failed, used key: f03035fc6bb07b1fb50ff021c2b10f36918f8f0d38d53c3ca8dfcd0aaec9bc3f
+W, [2014-12-16T12:28:05.761446 #4679]  WARN : Key already exists for GCM platform and v68 version 
+W, [2014-12-16T12:28:05.762359 #4679]  WARN : Connection to APNS failed, used key: 7a81cd29be79a030b6bfec0d2f97759d919fa7a41b798e8f802f27c49e49b53d
+W, [2014-12-16T12:28:05.764133 #4679]  WARN : Key already exists for APNS platform and v69 version 
+W, [2014-12-16T12:28:05.765368 #4679]  WARN : Connection to APNS failed, used key: 27e3089c2cdb420a2e54100e3ba522495bf6d28c283bcc319954131c05b0e15b
+W, [2014-12-16T12:28:05.767147 #4679]  WARN : Key already exists for GCM platform and v70 version 
+W, [2014-12-16T12:28:05.768032 #4679]  WARN : Connection to APNS failed, used key: 0a81c4e844eeae6c1ba0819012bf70a05b545309e02c6c02e881ca05181cd944
+W, [2014-12-16T12:28:05.769658 #4679]  WARN : Key already exists for APNS platform and v71 version 
+W, [2014-12-16T12:28:05.770795 #4679]  WARN : Connection to APNS failed, used key: 3e9b2f25a12d5cb195bc5dd2cabeef53a0cdbbdd865d51042b0e1187b0c873ad
+W, [2014-12-16T12:28:05.772367 #4679]  WARN : Key already exists for GCM platform and v72 version 
+W, [2014-12-16T12:28:05.773213 #4679]  WARN : Connection to APNS failed, used key: e399b0cdcf5019ae66d68f10f5955c8cba59ee6a8b88739ac4822899298f76a2
+W, [2014-12-16T12:28:05.774905 #4679]  WARN : Key already exists for GCM platform and v73 version 
+W, [2014-12-16T12:28:05.775679 #4679]  WARN : Connection to APNS failed, used key: d363fb9b6f8453f249363225c3e654f9efc7d2187ed7f882a8d2c6c52835dbdf
+W, [2014-12-16T12:28:05.777314 #4679]  WARN : Key already exists for GCM platform and v74 version 
+W, [2014-12-16T12:28:05.778121 #4679]  WARN : Connection to APNS failed, used key: 6b733e5b421d769573cb9e0a228ecfb9e8c985f69eee32733f3f495b7ff34d08
+W, [2014-12-16T12:28:05.779728 #4679]  WARN : Key already exists for APNS platform and v75 version 
+W, [2014-12-16T12:28:05.780852 #4679]  WARN : Connection to APNS failed, used key: 6b232e8a548350dfa1fac99d591fc504e7f8f467f46f58194f386e1f986820b5
+W, [2014-12-16T12:28:05.782725 #4679]  WARN : Key already exists for APNS platform and v76 version 
+W, [2014-12-16T12:28:05.784017 #4679]  WARN : Connection to APNS failed, used key: 59871003e150d81edd38a2cf07775f860cc8a6b17c088177db2c92ee991666cb
+W, [2014-12-16T12:28:05.785867 #4679]  WARN : Key already exists for GCM platform and v77 version 
+W, [2014-12-16T12:28:05.786778 #4679]  WARN : Connection to APNS failed, used key: b7cc1ac5a2147f6a64598a7d54733c9e15cb1c3cc4883281d542f208403ca93f
+W, [2014-12-16T12:28:05.788435 #4679]  WARN : Key already exists for GCM platform and v78 version 
+W, [2014-12-16T12:28:05.789476 #4679]  WARN : Connection to APNS failed, used key: a31deb32ffe4e59320dfb25503ef2ced63291806015f3441d3cba43a924e25b7
+W, [2014-12-16T12:28:05.791178 #4679]  WARN : Key already exists for APNS platform and v79 version 
+W, [2014-12-16T12:28:05.792317 #4679]  WARN : Connection to APNS failed, used key: 9edc5220c74178c3e3edbbf5baa6a2752758c09bdd5aa56f4dcd8cb86055702a
+W, [2014-12-16T12:28:05.794042 #4679]  WARN : Key already exists for GCM platform and v80 version 
+W, [2014-12-16T12:28:05.795012 #4679]  WARN : Connection to APNS failed, used key: f6ecf486001f85ba681d3e0414556d7bb2836191507b4f0f6aa3ceb64d4d7d66
+W, [2014-12-16T12:28:05.796775 #4679]  WARN : Key already exists for GCM platform and v81 version 
+W, [2014-12-16T12:28:05.797570 #4679]  WARN : Connection to APNS failed, used key: 538ef482d0dc097f8930dc12cd0a31ad4a0cf3745a3312b12d301b23176beb36
+W, [2014-12-16T12:28:05.799272 #4679]  WARN : Key already exists for APNS platform and v82 version 
+W, [2014-12-16T12:28:05.800357 #4679]  WARN : Connection to APNS failed, used key: 1a036c7e8afd8f6619846125c024f5388355e875b8f81543a390d5ed17418313
+W, [2014-12-16T12:28:05.802008 #4679]  WARN : Key already exists for APNS platform and v83 version 
+W, [2014-12-16T12:28:05.803036 #4679]  WARN : Connection to APNS failed, used key: 0003008e710bb96cf1379628796a855dbd62883582ae73693fbe27378ab04c03
+W, [2014-12-16T12:28:05.805069 #4679]  WARN : Key already exists for APNS platform and v84 version 
+W, [2014-12-16T12:28:05.806185 #4679]  WARN : Connection to APNS failed, used key: 8bbe439c70cb6d485e392b5dd080b7f25aba51017e703937138ac82d974cb843
+W, [2014-12-16T12:28:05.807770 #4679]  WARN : Key already exists for GCM platform and v85 version 
+W, [2014-12-16T12:28:05.808575 #4679]  WARN : Connection to APNS failed, used key: 3ec7a49b345902e21be95efc271721bf332caa57df6fddc9715bfa7400a912ea
+W, [2014-12-16T12:28:05.810138 #4679]  WARN : Key already exists for GCM platform and v86 version 
+W, [2014-12-16T12:28:05.810975 #4679]  WARN : Connection to APNS failed, used key: 42ba2f4e147f857c159c38825623e8de2a5ddd70349a0bc37b018c2ee152a4ce
+W, [2014-12-16T12:28:05.812616 #4679]  WARN : Key already exists for APNS platform and v87 version 
+W, [2014-12-16T12:28:05.813735 #4679]  WARN : Connection to APNS failed, used key: 4cdf7b8bd363f888863d66b6a2463e0a3b59801dbb5ba870aad69742ff8e9c99
+W, [2014-12-16T12:28:05.815366 #4679]  WARN : Key already exists for GCM platform and v88 version 
+W, [2014-12-16T12:28:05.816173 #4679]  WARN : Connection to APNS failed, used key: 53ae20f81378a0a96438212e3acff22b65118a0131e9307b37fb49a2802ba0b2
+W, [2014-12-16T12:28:05.817768 #4679]  WARN : Key already exists for GCM platform and v89 version 
+W, [2014-12-16T12:28:05.818551 #4679]  WARN : Connection to APNS failed, used key: 339148245a3a0dea132562c22fbca5eef4ba6fec18fa11bc7ab3b56427cc94e9
+W, [2014-12-16T12:28:05.820883 #4679]  WARN : Key already exists for GCM platform and v90 version 
+W, [2014-12-16T12:28:05.821834 #4679]  WARN : Connection to APNS failed, used key: fd5aed18909e95e16b560657e7d867d8f684501c6f380c276bbc6a6819dac7db
+W, [2014-12-16T12:28:05.825025 #4679]  WARN : Key already exists for GCM platform and v91 version 
+W, [2014-12-16T12:28:05.826535 #4679]  WARN : Connection to APNS failed, used key: f49399690dcf9f0388afba17226490ce92903ad145cf0880bbcf1d155ad64c3f
+W, [2014-12-16T12:28:05.828657 #4679]  WARN : Key already exists for GCM platform and v92 version 
+W, [2014-12-16T12:28:05.829631 #4679]  WARN : Connection to APNS failed, used key: b6b00c58fdf3511f51df77149211b9085c035d8b24313761ff485dfed70aea02
+W, [2014-12-16T12:28:05.831953 #4679]  WARN : Key already exists for APNS platform and v93 version 
+W, [2014-12-16T12:28:05.833164 #4679]  WARN : Connection to APNS failed, used key: 03e77925dc3443868d0df1145afcf086404a1b8df3686ce7021d0902d5da8a27
+W, [2014-12-16T12:28:05.835362 #4679]  WARN : Key already exists for GCM platform and v94 version 
+W, [2014-12-16T12:28:05.837527 #4679]  WARN : Connection to APNS failed, used key: 3db6cb5a9b09a87f9316227fec2587f8d61313e7a85ef7f106ac0e81fbe1e31a
+W, [2014-12-16T12:28:05.841431 #4679]  WARN : Key already exists for APNS platform and v95 version 
+W, [2014-12-16T12:28:05.842760 #4679]  WARN : Connection to APNS failed, used key: 44aea70497e128d5f5b70a4bac17b02e66ead044441fd98a376a1f3057670ad7
+W, [2014-12-16T12:28:05.844879 #4679]  WARN : Key already exists for APNS platform and v96 version 
+W, [2014-12-16T12:28:05.846039 #4679]  WARN : Connection to APNS failed, used key: cb83f20ed7df69b36cd30f289e6b9a8cb56650ad7cdd8580b1dbb4d525b28580
+W, [2014-12-16T12:28:05.848973 #4679]  WARN : Key already exists for GCM platform and v97 version 
+W, [2014-12-16T12:28:05.849990 #4679]  WARN : Connection to APNS failed, used key: f81b9993fdff0430cf7a3630f70c83368e9efc2bc178f45c24b76d7aa2412c2e
+W, [2014-12-16T12:28:05.851762 #4679]  WARN : Key already exists for APNS platform and v98 version 
+W, [2014-12-16T12:28:05.852887 #4679]  WARN : Connection to APNS failed, used key: 7d8a3b1562fb31228195c1dd4c6ac7fe1eb0cf157a174f6f5653c3c2a8f5e108
+W, [2014-12-16T12:28:05.854606 #4679]  WARN : Key already exists for APNS platform and v99 version 
+W, [2014-12-16T12:28:05.855659 #4679]  WARN : Connection to APNS failed, used key: 17a32b547f53c6428d8f60809e1c1fc5c4d816dc8e2540256bfa3bfa1efb06b9
+W, [2014-12-16T12:28:05.859464 #4679]  WARN : Key already exists for GCM platform and v100 version 
+W, [2014-12-16T12:28:05.860411 #4679]  WARN : Connection to APNS failed, used key: cf9780a0b552b49e7fdb7386d2567bbdc70d8633478467a18f1a8932cf151e15
+I, [2014-12-16T12:28:05.860524 #4679]  INFO : Finished successfully
+Results:
+  Keys:
+    Fetched:  100
+    Saved:    0
+    Valid:    0
+  Tokens:
+    Fetched:  0
+    Saved:    0
+    Pinged:   0
+
+W, [2014-12-16T12:29:07.515033 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v1
+W, [2014-12-16T12:29:07.525001 #4691]  WARN : Connection to APNS failed, used key: e195b46a7fd92647cd42a48f45e596fb4f6ff0dda17078d88d0ace751901d638
+W, [2014-12-16T12:29:07.529482 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v2
+W, [2014-12-16T12:29:07.530490 #4691]  WARN : Connection to APNS failed, used key: 10d77502f32f7d837ffc23f0f4de8e03a37b9ff6eb26dfb21d5368f312f2adaa
+W, [2014-12-16T12:29:07.533413 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v3
+W, [2014-12-16T12:29:07.535195 #4691]  WARN : Connection to APNS failed, used key: 1295a746a0eef58781e25b4ffbbf9795fec48da0505b58f63d2f702a5c93d393
+W, [2014-12-16T12:29:07.538506 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v4
+W, [2014-12-16T12:29:07.539603 #4691]  WARN : Connection to APNS failed, used key: b2c1d9ca232c291d38c480bc2d191b8207b4376df5f5af3a65156cbb855781da
+W, [2014-12-16T12:29:07.542702 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v5
+W, [2014-12-16T12:29:07.543777 #4691]  WARN : Connection to APNS failed, used key: f6898dbc2f2bb46a50a6b1142e0854a7e5d233ac72a23d652e15b1d3f2885280
+W, [2014-12-16T12:29:07.545547 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v6
+W, [2014-12-16T12:29:07.546498 #4691]  WARN : Connection to APNS failed, used key: 35a82511eb4c96a7e392e5a7c2524d7ef6968821332f44d87072fbe87dca5639
+W, [2014-12-16T12:29:07.548378 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v7
+W, [2014-12-16T12:29:07.549232 #4691]  WARN : Connection to APNS failed, used key: 8d37088f13a4dbd49736eab898006753b8438b45821bec44070759f8751ad4a3
+W, [2014-12-16T12:29:07.552247 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v8
+W, [2014-12-16T12:29:07.553917 #4691]  WARN : Connection to APNS failed, used key: fbc0e845b8f6efd5a72b1f4935fdf741249b6a89b275456fa998203fd6077ef2
+W, [2014-12-16T12:29:07.555843 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v9
+W, [2014-12-16T12:29:07.560090 #4691]  WARN : Connection to APNS failed, used key: aa773d51e71b9d42e7521743eddd087b9218bb8d0e1f45016b568da107052731
+W, [2014-12-16T12:29:07.562182 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v10
+W, [2014-12-16T12:29:07.563678 #4691]  WARN : Connection to APNS failed, used key: ceafa75f3492022b55a659a1fb1555f559d2ac3d651d46d56574fb846d594702
+W, [2014-12-16T12:29:07.565551 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v11
+W, [2014-12-16T12:29:07.566814 #4691]  WARN : Connection to APNS failed, used key: c103a341a4129ab4beff651d63933530610c178f1d1c133649a7582d4f252145
+W, [2014-12-16T12:29:07.568707 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v12
+W, [2014-12-16T12:29:07.569739 #4691]  WARN : Connection to APNS failed, used key: 8f8539a34fe5b41ac31a5cce6a6a172c5b1120d6c2c0ac418a86fa8411bfb89d
+W, [2014-12-16T12:29:07.571676 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v13
+W, [2014-12-16T12:29:07.572886 #4691]  WARN : Connection to APNS failed, used key: b3ae2ce05b735844b21af4c2f3951d1457e9d5cf5f6031a50b496614aa1eb17a
+W, [2014-12-16T12:29:07.574894 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v14
+W, [2014-12-16T12:29:07.575941 #4691]  WARN : Connection to APNS failed, used key: 59d706504e43c7eccaeae89f7721d53b1e872b1579db4faad196c8816970ec8a
+W, [2014-12-16T12:29:07.579226 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v15
+W, [2014-12-16T12:29:07.580730 #4691]  WARN : Connection to APNS failed, used key: fd57f2b8254f526de5102ed8a0f051ad68cea6cfc8e6eb2ea46dcb44ab33c729
+W, [2014-12-16T12:29:07.582802 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v16
+W, [2014-12-16T12:29:07.584139 #4691]  WARN : Connection to APNS failed, used key: 10b500703bb29dc786ab6cccaa7098993c54dcbed3752515792e2a5836637995
+W, [2014-12-16T12:29:07.585978 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v17
+W, [2014-12-16T12:29:07.586846 #4691]  WARN : Connection to APNS failed, used key: d2a2977908fee23bdc20c908a45248dc4ddf184ac3ebe0a6a92ea7cd3a6ad06a
+W, [2014-12-16T12:29:07.588516 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v18
+W, [2014-12-16T12:29:07.589356 #4691]  WARN : Connection to APNS failed, used key: f1c8c1fffaf83512b41449247136c3ea903d1d687bdeb8217b109f52da29f6ea
+W, [2014-12-16T12:29:07.591303 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v19
+W, [2014-12-16T12:29:07.592747 #4691]  WARN : Connection to APNS failed, used key: 89b91a6f846a8a9b71f9626b16d9fefb1a71cb440a9d079740b4bb654c72bbed
+W, [2014-12-16T12:29:07.595226 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v20
+W, [2014-12-16T12:29:07.596339 #4691]  WARN : Connection to APNS failed, used key: a8ba5fb500bd5953618837e655c9aa637d78f5d847bc57aedf3e51a7ab3010d9
+W, [2014-12-16T12:29:07.598345 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v21
+W, [2014-12-16T12:29:07.599731 #4691]  WARN : Connection to APNS failed, used key: 530fdd30d062ad501458fd53e049c0bb427b5a11d0c9ef603767baaf40ba26fa
+W, [2014-12-16T12:29:07.601817 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v22
+W, [2014-12-16T12:29:07.602847 #4691]  WARN : Connection to APNS failed, used key: 20fd068807cf05a9fae90c79e07329f04c06deedbda9a3ba22232ed54318448d
+W, [2014-12-16T12:29:07.604675 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v23
+W, [2014-12-16T12:29:07.605587 #4691]  WARN : Connection to APNS failed, used key: ba23d68a437e124f954582bc13dbb979339275582e6be211e9c3eefb7597c383
+W, [2014-12-16T12:29:07.607263 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v24
+W, [2014-12-16T12:29:07.608437 #4691]  WARN : Connection to APNS failed, used key: 496b9e0becea7b02636bc9f63b8bc7dfd519eec3e2c152e48cc39058dd901a2a
+W, [2014-12-16T12:29:07.610334 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v25
+W, [2014-12-16T12:29:07.611534 #4691]  WARN : Connection to APNS failed, used key: 079fa630bedf53084405e7f1e16b460a7e9b6033935402596e2a5c079295db23
+W, [2014-12-16T12:29:07.613352 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v26
+W, [2014-12-16T12:29:07.614635 #4691]  WARN : Connection to APNS failed, used key: 4c9a86d82e1f5f0dc2bf291cffd08ffc0f0fab338efe10661f8c1abb1d469428
+W, [2014-12-16T12:29:07.617207 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v27
+W, [2014-12-16T12:29:07.618442 #4691]  WARN : Connection to APNS failed, used key: 28c3c9c594a9ec89d1c73b85d6b92e1cae59200d703370e2b70a985b2b5b4667
+W, [2014-12-16T12:29:07.620313 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v28
+W, [2014-12-16T12:29:07.621615 #4691]  WARN : Connection to APNS failed, used key: d81c3de44ac0cf69006cc10857c0c94178bda6b7447a6cd33b086c58a1871911
+W, [2014-12-16T12:29:07.623508 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v29
+W, [2014-12-16T12:29:07.624375 #4691]  WARN : Connection to APNS failed, used key: 318abc200c9e2efd7b5df4ab68589ac098fd1bda846bddba3b56cbd47a006592
+W, [2014-12-16T12:29:07.626055 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v30
+W, [2014-12-16T12:29:07.626908 #4691]  WARN : Connection to APNS failed, used key: 8701f5d1957a7ca12b8a373edb6a4a470c29bdaf38758b89f31557a2907905eb
+W, [2014-12-16T12:29:07.628521 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v31
+W, [2014-12-16T12:29:07.629423 #4691]  WARN : Connection to APNS failed, used key: c947c72015828b4a3113daf3a40cc6f0acc988fc0bf12ac421f040c27f38af2e
+W, [2014-12-16T12:29:07.631116 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v32
+W, [2014-12-16T12:29:07.632145 #4691]  WARN : Connection to APNS failed, used key: ce7f7aac531abd96c146898bdbda004b3f06e3e2c7bb914f92129f4ffec0e357
+W, [2014-12-16T12:29:07.634314 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v33
+W, [2014-12-16T12:29:07.635391 #4691]  WARN : Connection to APNS failed, used key: 6ff351b4f19fed3845a7df7a90a9e3c2b88527c54d86daea17d3042339d0629a
+W, [2014-12-16T12:29:07.637251 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v34
+W, [2014-12-16T12:29:07.638273 #4691]  WARN : Connection to APNS failed, used key: 17c9c92c03164489e9b08b2804863626f85869e8cce9ce3ee76db3aba31edab6
+W, [2014-12-16T12:29:07.640183 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v35
+W, [2014-12-16T12:29:07.641550 #4691]  WARN : Connection to APNS failed, used key: 9950145cb10d6fc3c76f07672a5940258a2dd59ecda132eaa66242b02857c6a9
+W, [2014-12-16T12:29:07.643410 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v36
+W, [2014-12-16T12:29:07.644705 #4691]  WARN : Connection to APNS failed, used key: 44c2046cc34a8c001b8992e362f8853db4f1bc8bee8cfe94298ca8f1d1656206
+W, [2014-12-16T12:29:07.646868 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v37
+W, [2014-12-16T12:29:07.648387 #4691]  WARN : Connection to APNS failed, used key: c32e845ccfe4970e2342f76182fc8aba7f7262f2f71fcd6bbaa310eb4ec833b1
+W, [2014-12-16T12:29:07.650428 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v38
+W, [2014-12-16T12:29:07.651765 #4691]  WARN : Connection to APNS failed, used key: edf6b89ec71ab2962aa75066c9475fc0e877cf6f8911df4e5f74df84f0b9abf7
+W, [2014-12-16T12:29:07.653574 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v39
+W, [2014-12-16T12:29:07.654821 #4691]  WARN : Connection to APNS failed, used key: ae5e83392be9191f8353c856f2c54d4f3a0c12c0fd0450557560bcb3d53e2255
+W, [2014-12-16T12:29:07.656522 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v40
+W, [2014-12-16T12:29:07.657387 #4691]  WARN : Connection to APNS failed, used key: e9fe3790d77ac32208eb025646731219abbe6ba45b61d6e1602474899b8a5260
+W, [2014-12-16T12:29:07.659119 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v41
+W, [2014-12-16T12:29:07.660262 #4691]  WARN : Connection to APNS failed, used key: ecdf9e58186e24086c12cb0d84295c36c51eab01d7843208a3f7e135f04fb796
+W, [2014-12-16T12:29:07.661903 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v42
+W, [2014-12-16T12:29:07.663009 #4691]  WARN : Connection to APNS failed, used key: 713e3c467417949886221e80566d1f7563a394a512365db93c14f9ce5b541f36
+W, [2014-12-16T12:29:07.664743 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v43
+W, [2014-12-16T12:29:07.666186 #4691]  WARN : Connection to APNS failed, used key: e02338810e7c5859729896b272d7ee0c33d5ea74c84eb3db5fbe73c0d3816f4f
+W, [2014-12-16T12:29:07.668215 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v44
+W, [2014-12-16T12:29:07.669114 #4691]  WARN : Connection to APNS failed, used key: fa1b9c6f48a59bcef776a79e8ae30b29f164da475a2bdcb50cf57ca94b8cf066
+W, [2014-12-16T12:29:07.670778 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v45
+W, [2014-12-16T12:29:07.671875 #4691]  WARN : Connection to APNS failed, used key: 6cd6f652abca5375dbeb10c57b7ffff2d39c8d8ac6efc0785adc8575cd08ae0f
+W, [2014-12-16T12:29:07.675485 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v46
+W, [2014-12-16T12:29:07.676863 #4691]  WARN : Connection to APNS failed, used key: aac8f77985784dc5709585723536a2d03f606a1d945acd613c9cfcdf86658aa5
+W, [2014-12-16T12:29:07.678889 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v47
+W, [2014-12-16T12:29:07.680140 #4691]  WARN : Connection to APNS failed, used key: 9957dd43c2aea0c4c9bcac628ce32ad7c22efd4a8dcb7c7bddf3c16260b43e8a
+W, [2014-12-16T12:29:07.682170 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v48
+W, [2014-12-16T12:29:07.683232 #4691]  WARN : Connection to APNS failed, used key: 114d1ef074da9d4ac4750d69969dbf5db19169fcbfc2e8d98ce32c721cc24275
+W, [2014-12-16T12:29:07.685177 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v49
+W, [2014-12-16T12:29:07.686709 #4691]  WARN : Connection to APNS failed, used key: 84f1c65ee522fe7dbf3854660d122255192e02656d9c4e72444215a18c674bf6
+W, [2014-12-16T12:29:07.689455 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v50
+W, [2014-12-16T12:29:07.690638 #4691]  WARN : Connection to APNS failed, used key: d43eecc87e145d03a1127743ac6572ca23732c3ad4185eb86111fb9a43f5ad76
+W, [2014-12-16T12:29:07.692430 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v51
+W, [2014-12-16T12:29:07.694076 #4691]  WARN : Connection to APNS failed, used key: d44e3b4be299480149edd8e69387c6ac8afa68619d82905599cb10b15248aeed
+W, [2014-12-16T12:29:07.697733 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v52
+W, [2014-12-16T12:29:07.699290 #4691]  WARN : Connection to APNS failed, used key: 8c66217b4ce797a263353175f70156fd87f34faf137ff5ecda5dbe9ff10e728b
+W, [2014-12-16T12:29:07.701500 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v53
+W, [2014-12-16T12:29:07.702684 #4691]  WARN : Connection to APNS failed, used key: e44313f5753e65777cf50ae92fcb3a6afb0f4149cc8ed4ccc05632d3981eae8d
+W, [2014-12-16T12:29:07.704472 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v54
+W, [2014-12-16T12:29:07.705666 #4691]  WARN : Connection to APNS failed, used key: 661c619cdeecb575d28e8c9eb49ed78f6c5644c0390b842a4624e47f726fb687
+W, [2014-12-16T12:29:07.707690 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v55
+W, [2014-12-16T12:29:07.710351 #4691]  WARN : Connection to APNS failed, used key: c9869fe89835e75a837eae4334106292d0bd018473e2deef4e6622df4864e34d
+W, [2014-12-16T12:29:07.712184 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v56
+W, [2014-12-16T12:29:07.713348 #4691]  WARN : Connection to APNS failed, used key: 553f96f3acf5b7aef2a3a8acedd6a7de58c2cf5fe4cc5f6f3f58a07b4036d0a4
+W, [2014-12-16T12:29:07.715376 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v57
+W, [2014-12-16T12:29:07.717143 #4691]  WARN : Connection to APNS failed, used key: dd12aea6fcbfafb0e1ce501577aa15c88e92a413c27722304ce7379e850dee9f
+W, [2014-12-16T12:29:07.719225 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v58
+W, [2014-12-16T12:29:07.720651 #4691]  WARN : Connection to APNS failed, used key: dbefac24f38d5e3bba4b770170348661eb7e7fbe212cfae187f40bf99d268b27
+W, [2014-12-16T12:29:07.722748 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v59
+W, [2014-12-16T12:29:07.724193 #4691]  WARN : Connection to APNS failed, used key: 1b34052c901839042403a0102a02cc3bcdbee46450ce871d4b924645a633f846
+W, [2014-12-16T12:29:07.726092 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v60
+W, [2014-12-16T12:29:07.727069 #4691]  WARN : Connection to APNS failed, used key: c432281ceb01b2a2fbef4d978b87dc948f116f373f166e4513a13c54f32e5e5e
+W, [2014-12-16T12:29:07.728729 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v61
+W, [2014-12-16T12:29:07.729551 #4691]  WARN : Connection to APNS failed, used key: 0360cc5a593d8611f735d2dc05b5f4703ef7850cfec726254665e26b58fde03e
+W, [2014-12-16T12:29:07.731310 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v62
+W, [2014-12-16T12:29:07.732454 #4691]  WARN : Connection to APNS failed, used key: 8e81512395bed7e7f3961a1ecd4973e50799a6894c9fc34b1a8f418b136fe80b
+W, [2014-12-16T12:29:07.736274 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v63
+W, [2014-12-16T12:29:07.737502 #4691]  WARN : Connection to APNS failed, used key: 9314c5f5fc11f2578674012cde86ffffcac422ad9c8917733625779913310e7c
+W, [2014-12-16T12:29:07.739199 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v64
+W, [2014-12-16T12:29:07.740039 #4691]  WARN : Connection to APNS failed, used key: 6622df118c0e2e2cf0306ef200cd18e25ccaf4815e0c03b25e739fba0e4764f6
+W, [2014-12-16T12:29:07.741645 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v65
+W, [2014-12-16T12:29:07.743144 #4691]  WARN : Connection to APNS failed, used key: 8952bd80311a866c2944aed96e3c736c906bd26d57d1f51ec40bdf37c7ecddde
+W, [2014-12-16T12:29:07.746876 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v66
+W, [2014-12-16T12:29:07.748295 #4691]  WARN : Connection to APNS failed, used key: 46120d5415f17d46a884c6d0aef23aa84453a506cbcc00f695789814885365d6
+W, [2014-12-16T12:29:07.750414 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v67
+W, [2014-12-16T12:29:07.751842 #4691]  WARN : Connection to APNS failed, used key: f03035fc6bb07b1fb50ff021c2b10f36918f8f0d38d53c3ca8dfcd0aaec9bc3f
+W, [2014-12-16T12:29:07.753859 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v68
+W, [2014-12-16T12:29:07.754763 #4691]  WARN : Connection to APNS failed, used key: 7a81cd29be79a030b6bfec0d2f97759d919fa7a41b798e8f802f27c49e49b53d
+W, [2014-12-16T12:29:07.756561 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v69
+W, [2014-12-16T12:29:07.758094 #4691]  WARN : Connection to APNS failed, used key: 27e3089c2cdb420a2e54100e3ba522495bf6d28c283bcc319954131c05b0e15b
+W, [2014-12-16T12:29:07.761550 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v70
+W, [2014-12-16T12:29:07.762652 #4691]  WARN : Connection to APNS failed, used key: 0a81c4e844eeae6c1ba0819012bf70a05b545309e02c6c02e881ca05181cd944
+W, [2014-12-16T12:29:07.764806 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v71
+W, [2014-12-16T12:29:07.766397 #4691]  WARN : Connection to APNS failed, used key: 3e9b2f25a12d5cb195bc5dd2cabeef53a0cdbbdd865d51042b0e1187b0c873ad
+W, [2014-12-16T12:29:07.768867 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v72
+W, [2014-12-16T12:29:07.769837 #4691]  WARN : Connection to APNS failed, used key: e399b0cdcf5019ae66d68f10f5955c8cba59ee6a8b88739ac4822899298f76a2
+W, [2014-12-16T12:29:07.771613 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v73
+W, [2014-12-16T12:29:07.772489 #4691]  WARN : Connection to APNS failed, used key: d363fb9b6f8453f249363225c3e654f9efc7d2187ed7f882a8d2c6c52835dbdf
+W, [2014-12-16T12:29:07.774275 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v74
+W, [2014-12-16T12:29:07.775137 #4691]  WARN : Connection to APNS failed, used key: 6b733e5b421d769573cb9e0a228ecfb9e8c985f69eee32733f3f495b7ff34d08
+W, [2014-12-16T12:29:07.777497 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v75
+W, [2014-12-16T12:29:07.778843 #4691]  WARN : Connection to APNS failed, used key: 6b232e8a548350dfa1fac99d591fc504e7f8f467f46f58194f386e1f986820b5
+W, [2014-12-16T12:29:07.780799 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v76
+W, [2014-12-16T12:29:07.782120 #4691]  WARN : Connection to APNS failed, used key: 59871003e150d81edd38a2cf07775f860cc8a6b17c088177db2c92ee991666cb
+W, [2014-12-16T12:29:07.784460 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v77
+W, [2014-12-16T12:29:07.785646 #4691]  WARN : Connection to APNS failed, used key: b7cc1ac5a2147f6a64598a7d54733c9e15cb1c3cc4883281d542f208403ca93f
+W, [2014-12-16T12:29:07.788539 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v78
+W, [2014-12-16T12:29:07.789501 #4691]  WARN : Connection to APNS failed, used key: a31deb32ffe4e59320dfb25503ef2ced63291806015f3441d3cba43a924e25b7
+W, [2014-12-16T12:29:07.791331 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v79
+W, [2014-12-16T12:29:07.792515 #4691]  WARN : Connection to APNS failed, used key: 9edc5220c74178c3e3edbbf5baa6a2752758c09bdd5aa56f4dcd8cb86055702a
+W, [2014-12-16T12:29:07.794146 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v80
+W, [2014-12-16T12:29:07.795020 #4691]  WARN : Connection to APNS failed, used key: f6ecf486001f85ba681d3e0414556d7bb2836191507b4f0f6aa3ceb64d4d7d66
+W, [2014-12-16T12:29:07.796660 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v81
+W, [2014-12-16T12:29:07.797626 #4691]  WARN : Connection to APNS failed, used key: 538ef482d0dc097f8930dc12cd0a31ad4a0cf3745a3312b12d301b23176beb36
+W, [2014-12-16T12:29:07.799814 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v82
+W, [2014-12-16T12:29:07.801447 #4691]  WARN : Connection to APNS failed, used key: 1a036c7e8afd8f6619846125c024f5388355e875b8f81543a390d5ed17418313
+W, [2014-12-16T12:29:07.803448 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v83
+W, [2014-12-16T12:29:07.804853 #4691]  WARN : Connection to APNS failed, used key: 0003008e710bb96cf1379628796a855dbd62883582ae73693fbe27378ab04c03
+W, [2014-12-16T12:29:07.806772 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v84
+W, [2014-12-16T12:29:07.808042 #4691]  WARN : Connection to APNS failed, used key: 8bbe439c70cb6d485e392b5dd080b7f25aba51017e703937138ac82d974cb843
+W, [2014-12-16T12:29:07.810552 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v85
+W, [2014-12-16T12:29:07.811682 #4691]  WARN : Connection to APNS failed, used key: 3ec7a49b345902e21be95efc271721bf332caa57df6fddc9715bfa7400a912ea
+W, [2014-12-16T12:29:07.813500 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v86
+W, [2014-12-16T12:29:07.814585 #4691]  WARN : Connection to APNS failed, used key: 42ba2f4e147f857c159c38825623e8de2a5ddd70349a0bc37b018c2ee152a4ce
+W, [2014-12-16T12:29:07.816668 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v87
+W, [2014-12-16T12:29:07.818329 #4691]  WARN : Connection to APNS failed, used key: 4cdf7b8bd363f888863d66b6a2463e0a3b59801dbb5ba870aad69742ff8e9c99
+W, [2014-12-16T12:29:07.820322 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v88
+W, [2014-12-16T12:29:07.821398 #4691]  WARN : Connection to APNS failed, used key: 53ae20f81378a0a96438212e3acff22b65118a0131e9307b37fb49a2802ba0b2
+W, [2014-12-16T12:29:07.823128 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v89
+W, [2014-12-16T12:29:07.823956 #4691]  WARN : Connection to APNS failed, used key: 339148245a3a0dea132562c22fbca5eef4ba6fec18fa11bc7ab3b56427cc94e9
+W, [2014-12-16T12:29:07.826369 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v90
+W, [2014-12-16T12:29:07.827257 #4691]  WARN : Connection to APNS failed, used key: fd5aed18909e95e16b560657e7d867d8f684501c6f380c276bbc6a6819dac7db
+W, [2014-12-16T12:29:07.828853 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v91
+W, [2014-12-16T12:29:07.829665 #4691]  WARN : Connection to APNS failed, used key: f49399690dcf9f0388afba17226490ce92903ad145cf0880bbcf1d155ad64c3f
+W, [2014-12-16T12:29:07.831382 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v92
+W, [2014-12-16T12:29:07.832439 #4691]  WARN : Connection to APNS failed, used key: b6b00c58fdf3511f51df77149211b9085c035d8b24313761ff485dfed70aea02
+W, [2014-12-16T12:29:07.834460 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v93
+W, [2014-12-16T12:29:07.835746 #4691]  WARN : Connection to APNS failed, used key: 03e77925dc3443868d0df1145afcf086404a1b8df3686ce7021d0902d5da8a27
+W, [2014-12-16T12:29:07.837591 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v94
+W, [2014-12-16T12:29:07.838457 #4691]  WARN : Connection to APNS failed, used key: 3db6cb5a9b09a87f9316227fec2587f8d61313e7a85ef7f106ac0e81fbe1e31a
+W, [2014-12-16T12:29:07.840124 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v95
+W, [2014-12-16T12:29:07.841368 #4691]  WARN : Connection to APNS failed, used key: 44aea70497e128d5f5b70a4bac17b02e66ead044441fd98a376a1f3057670ad7
+W, [2014-12-16T12:29:07.843561 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v96
+W, [2014-12-16T12:29:07.845064 #4691]  WARN : Connection to APNS failed, used key: cb83f20ed7df69b36cd30f289e6b9a8cb56650ad7cdd8580b1dbb4d525b28580
+W, [2014-12-16T12:29:07.847018 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v97
+W, [2014-12-16T12:29:07.847963 #4691]  WARN : Connection to APNS failed, used key: f81b9993fdff0430cf7a3630f70c83368e9efc2bc178f45c24b76d7aa2412c2e
+W, [2014-12-16T12:29:07.849828 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v98
+W, [2014-12-16T12:29:07.851252 #4691]  WARN : Connection to APNS failed, used key: 7d8a3b1562fb31228195c1dd4c6ac7fe1eb0cf157a174f6f5653c3c2a8f5e108
+W, [2014-12-16T12:29:07.853375 #4691]  WARN : Key already exists in db. Platform: APNS, Version: v99
+W, [2014-12-16T12:29:07.854647 #4691]  WARN : Connection to APNS failed, used key: 17a32b547f53c6428d8f60809e1c1fc5c4d816dc8e2540256bfa3bfa1efb06b9
+W, [2014-12-16T12:29:07.856448 #4691]  WARN : Key already exists in db. Platform: GCM, Version: v100
+W, [2014-12-16T12:29:07.861402 #4691]  WARN : Connection to APNS failed, used key: cf9780a0b552b49e7fdb7386d2567bbdc70d8633478467a18f1a8932cf151e15
+I, [2014-12-16T12:29:07.861801 #4691]  INFO : Finished successfully
+Results:
+  Keys:
+    Fetched:  100
+    Saved:    0
+    Valid:    0
+  Tokens:
+    Fetched:  0
+    Saved:    0
+    Pinged:   0
+
+I, [2014-12-16T12:29:44.176461 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v1
+W, [2014-12-16T12:29:44.182172 #4701]  WARN : Connection to APNS failed, used key: e195b46a7fd92647cd42a48f45e596fb4f6ff0dda17078d88d0ace751901d638
+I, [2014-12-16T12:29:44.185376 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v2
+W, [2014-12-16T12:29:44.186452 #4701]  WARN : Connection to APNS failed, used key: 10d77502f32f7d837ffc23f0f4de8e03a37b9ff6eb26dfb21d5368f312f2adaa
+I, [2014-12-16T12:29:44.189245 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v3
+W, [2014-12-16T12:29:44.191445 #4701]  WARN : Connection to APNS failed, used key: 1295a746a0eef58781e25b4ffbbf9795fec48da0505b58f63d2f702a5c93d393
+I, [2014-12-16T12:29:44.194782 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v4
+W, [2014-12-16T12:29:44.195909 #4701]  WARN : Connection to APNS failed, used key: b2c1d9ca232c291d38c480bc2d191b8207b4376df5f5af3a65156cbb855781da
+I, [2014-12-16T12:29:44.200259 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v5
+W, [2014-12-16T12:29:44.201285 #4701]  WARN : Connection to APNS failed, used key: f6898dbc2f2bb46a50a6b1142e0854a7e5d233ac72a23d652e15b1d3f2885280
+I, [2014-12-16T12:29:44.203432 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v6
+W, [2014-12-16T12:29:44.204370 #4701]  WARN : Connection to APNS failed, used key: 35a82511eb4c96a7e392e5a7c2524d7ef6968821332f44d87072fbe87dca5639
+I, [2014-12-16T12:29:44.206500 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v7
+W, [2014-12-16T12:29:44.207520 #4701]  WARN : Connection to APNS failed, used key: 8d37088f13a4dbd49736eab898006753b8438b45821bec44070759f8751ad4a3
+I, [2014-12-16T12:29:44.209521 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v8
+W, [2014-12-16T12:29:44.210924 #4701]  WARN : Connection to APNS failed, used key: fbc0e845b8f6efd5a72b1f4935fdf741249b6a89b275456fa998203fd6077ef2
+I, [2014-12-16T12:29:44.213203 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v9
+W, [2014-12-16T12:29:44.217630 #4701]  WARN : Connection to APNS failed, used key: aa773d51e71b9d42e7521743eddd087b9218bb8d0e1f45016b568da107052731
+I, [2014-12-16T12:29:44.219676 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v10
+W, [2014-12-16T12:29:44.220924 #4701]  WARN : Connection to APNS failed, used key: ceafa75f3492022b55a659a1fb1555f559d2ac3d651d46d56574fb846d594702
+I, [2014-12-16T12:29:44.222728 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v11
+W, [2014-12-16T12:29:44.224100 #4701]  WARN : Connection to APNS failed, used key: c103a341a4129ab4beff651d63933530610c178f1d1c133649a7582d4f252145
+I, [2014-12-16T12:29:44.226481 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v12
+W, [2014-12-16T12:29:44.227513 #4701]  WARN : Connection to APNS failed, used key: 8f8539a34fe5b41ac31a5cce6a6a172c5b1120d6c2c0ac418a86fa8411bfb89d
+I, [2014-12-16T12:29:44.229240 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v13
+W, [2014-12-16T12:29:44.230414 #4701]  WARN : Connection to APNS failed, used key: b3ae2ce05b735844b21af4c2f3951d1457e9d5cf5f6031a50b496614aa1eb17a
+I, [2014-12-16T12:29:44.233239 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v14
+W, [2014-12-16T12:29:44.234094 #4701]  WARN : Connection to APNS failed, used key: 59d706504e43c7eccaeae89f7721d53b1e872b1579db4faad196c8816970ec8a
+I, [2014-12-16T12:29:44.235803 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v15
+W, [2014-12-16T12:29:44.236890 #4701]  WARN : Connection to APNS failed, used key: fd57f2b8254f526de5102ed8a0f051ad68cea6cfc8e6eb2ea46dcb44ab33c729
+I, [2014-12-16T12:29:44.238482 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v16
+W, [2014-12-16T12:29:44.239525 #4701]  WARN : Connection to APNS failed, used key: 10b500703bb29dc786ab6cccaa7098993c54dcbed3752515792e2a5836637995
+I, [2014-12-16T12:29:44.241268 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v17
+W, [2014-12-16T12:29:44.242345 #4701]  WARN : Connection to APNS failed, used key: d2a2977908fee23bdc20c908a45248dc4ddf184ac3ebe0a6a92ea7cd3a6ad06a
+I, [2014-12-16T12:29:44.244266 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v18
+W, [2014-12-16T12:29:44.245209 #4701]  WARN : Connection to APNS failed, used key: f1c8c1fffaf83512b41449247136c3ea903d1d687bdeb8217b109f52da29f6ea
+I, [2014-12-16T12:29:44.246918 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v19
+W, [2014-12-16T12:29:44.248072 #4701]  WARN : Connection to APNS failed, used key: 89b91a6f846a8a9b71f9626b16d9fefb1a71cb440a9d079740b4bb654c72bbed
+I, [2014-12-16T12:29:44.249808 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v20
+W, [2014-12-16T12:29:44.250633 #4701]  WARN : Connection to APNS failed, used key: a8ba5fb500bd5953618837e655c9aa637d78f5d847bc57aedf3e51a7ab3010d9
+I, [2014-12-16T12:29:44.252337 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v21
+W, [2014-12-16T12:29:44.253552 #4701]  WARN : Connection to APNS failed, used key: 530fdd30d062ad501458fd53e049c0bb427b5a11d0c9ef603767baaf40ba26fa
+I, [2014-12-16T12:29:44.255561 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v22
+W, [2014-12-16T12:29:44.256698 #4701]  WARN : Connection to APNS failed, used key: 20fd068807cf05a9fae90c79e07329f04c06deedbda9a3ba22232ed54318448d
+I, [2014-12-16T12:29:44.259114 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v23
+W, [2014-12-16T12:29:44.260437 #4701]  WARN : Connection to APNS failed, used key: ba23d68a437e124f954582bc13dbb979339275582e6be211e9c3eefb7597c383
+I, [2014-12-16T12:29:44.262283 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v24
+W, [2014-12-16T12:29:44.263486 #4701]  WARN : Connection to APNS failed, used key: 496b9e0becea7b02636bc9f63b8bc7dfd519eec3e2c152e48cc39058dd901a2a
+I, [2014-12-16T12:29:44.266617 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v25
+W, [2014-12-16T12:29:44.267819 #4701]  WARN : Connection to APNS failed, used key: 079fa630bedf53084405e7f1e16b460a7e9b6033935402596e2a5c079295db23
+I, [2014-12-16T12:29:44.269555 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v26
+W, [2014-12-16T12:29:44.270704 #4701]  WARN : Connection to APNS failed, used key: 4c9a86d82e1f5f0dc2bf291cffd08ffc0f0fab338efe10661f8c1abb1d469428
+I, [2014-12-16T12:29:44.272432 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v27
+W, [2014-12-16T12:29:44.273427 #4701]  WARN : Connection to APNS failed, used key: 28c3c9c594a9ec89d1c73b85d6b92e1cae59200d703370e2b70a985b2b5b4667
+I, [2014-12-16T12:29:44.275573 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v28
+W, [2014-12-16T12:29:44.277155 #4701]  WARN : Connection to APNS failed, used key: d81c3de44ac0cf69006cc10857c0c94178bda6b7447a6cd33b086c58a1871911
+I, [2014-12-16T12:29:44.279175 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v29
+W, [2014-12-16T12:29:44.280160 #4701]  WARN : Connection to APNS failed, used key: 318abc200c9e2efd7b5df4ab68589ac098fd1bda846bddba3b56cbd47a006592
+I, [2014-12-16T12:29:44.282261 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v30
+W, [2014-12-16T12:29:44.283235 #4701]  WARN : Connection to APNS failed, used key: 8701f5d1957a7ca12b8a373edb6a4a470c29bdaf38758b89f31557a2907905eb
+I, [2014-12-16T12:29:44.285099 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v31
+W, [2014-12-16T12:29:44.286105 #4701]  WARN : Connection to APNS failed, used key: c947c72015828b4a3113daf3a40cc6f0acc988fc0bf12ac421f040c27f38af2e
+I, [2014-12-16T12:29:44.288198 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v32
+W, [2014-12-16T12:29:44.289062 #4701]  WARN : Connection to APNS failed, used key: ce7f7aac531abd96c146898bdbda004b3f06e3e2c7bb914f92129f4ffec0e357
+I, [2014-12-16T12:29:44.290825 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v33
+W, [2014-12-16T12:29:44.291745 #4701]  WARN : Connection to APNS failed, used key: 6ff351b4f19fed3845a7df7a90a9e3c2b88527c54d86daea17d3042339d0629a
+I, [2014-12-16T12:29:44.293807 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v34
+W, [2014-12-16T12:29:44.295125 #4701]  WARN : Connection to APNS failed, used key: 17c9c92c03164489e9b08b2804863626f85869e8cce9ce3ee76db3aba31edab6
+I, [2014-12-16T12:29:44.297050 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v35
+W, [2014-12-16T12:29:44.298343 #4701]  WARN : Connection to APNS failed, used key: 9950145cb10d6fc3c76f07672a5940258a2dd59ecda132eaa66242b02857c6a9
+I, [2014-12-16T12:29:44.300238 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v36
+W, [2014-12-16T12:29:44.301620 #4701]  WARN : Connection to APNS failed, used key: 44c2046cc34a8c001b8992e362f8853db4f1bc8bee8cfe94298ca8f1d1656206
+I, [2014-12-16T12:29:44.303513 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v37
+W, [2014-12-16T12:29:44.304759 #4701]  WARN : Connection to APNS failed, used key: c32e845ccfe4970e2342f76182fc8aba7f7262f2f71fcd6bbaa310eb4ec833b1
+I, [2014-12-16T12:29:44.306712 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v38
+W, [2014-12-16T12:29:44.308251 #4701]  WARN : Connection to APNS failed, used key: edf6b89ec71ab2962aa75066c9475fc0e877cf6f8911df4e5f74df84f0b9abf7
+I, [2014-12-16T12:29:44.310604 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v39
+W, [2014-12-16T12:29:44.312111 #4701]  WARN : Connection to APNS failed, used key: ae5e83392be9191f8353c856f2c54d4f3a0c12c0fd0450557560bcb3d53e2255
+I, [2014-12-16T12:29:44.314121 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v40
+W, [2014-12-16T12:29:44.315192 #4701]  WARN : Connection to APNS failed, used key: e9fe3790d77ac32208eb025646731219abbe6ba45b61d6e1602474899b8a5260
+I, [2014-12-16T12:29:44.316985 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v41
+W, [2014-12-16T12:29:44.318127 #4701]  WARN : Connection to APNS failed, used key: ecdf9e58186e24086c12cb0d84295c36c51eab01d7843208a3f7e135f04fb796
+I, [2014-12-16T12:29:44.319858 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v42
+W, [2014-12-16T12:29:44.320925 #4701]  WARN : Connection to APNS failed, used key: 713e3c467417949886221e80566d1f7563a394a512365db93c14f9ce5b541f36
+I, [2014-12-16T12:29:44.322973 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v43
+W, [2014-12-16T12:29:44.324134 #4701]  WARN : Connection to APNS failed, used key: e02338810e7c5859729896b272d7ee0c33d5ea74c84eb3db5fbe73c0d3816f4f
+I, [2014-12-16T12:29:44.326345 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v44
+W, [2014-12-16T12:29:44.327424 #4701]  WARN : Connection to APNS failed, used key: fa1b9c6f48a59bcef776a79e8ae30b29f164da475a2bdcb50cf57ca94b8cf066
+I, [2014-12-16T12:29:44.329198 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v45
+W, [2014-12-16T12:29:44.330408 #4701]  WARN : Connection to APNS failed, used key: 6cd6f652abca5375dbeb10c57b7ffff2d39c8d8ac6efc0785adc8575cd08ae0f
+I, [2014-12-16T12:29:44.332307 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v46
+W, [2014-12-16T12:29:44.333157 #4701]  WARN : Connection to APNS failed, used key: aac8f77985784dc5709585723536a2d03f606a1d945acd613c9cfcdf86658aa5
+I, [2014-12-16T12:29:44.334733 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v47
+W, [2014-12-16T12:29:44.336222 #4701]  WARN : Connection to APNS failed, used key: 9957dd43c2aea0c4c9bcac628ce32ad7c22efd4a8dcb7c7bddf3c16260b43e8a
+I, [2014-12-16T12:29:44.339832 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v48
+W, [2014-12-16T12:29:44.340924 #4701]  WARN : Connection to APNS failed, used key: 114d1ef074da9d4ac4750d69969dbf5db19169fcbfc2e8d98ce32c721cc24275
+I, [2014-12-16T12:29:44.343317 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v49
+W, [2014-12-16T12:29:44.344996 #4701]  WARN : Connection to APNS failed, used key: 84f1c65ee522fe7dbf3854660d122255192e02656d9c4e72444215a18c674bf6
+I, [2014-12-16T12:29:44.346995 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v50
+W, [2014-12-16T12:29:44.348185 #4701]  WARN : Connection to APNS failed, used key: d43eecc87e145d03a1127743ac6572ca23732c3ad4185eb86111fb9a43f5ad76
+I, [2014-12-16T12:29:44.349955 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v51
+W, [2014-12-16T12:29:44.351081 #4701]  WARN : Connection to APNS failed, used key: d44e3b4be299480149edd8e69387c6ac8afa68619d82905599cb10b15248aeed
+I, [2014-12-16T12:29:44.353050 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v52
+W, [2014-12-16T12:29:44.354847 #4701]  WARN : Connection to APNS failed, used key: 8c66217b4ce797a263353175f70156fd87f34faf137ff5ecda5dbe9ff10e728b
+I, [2014-12-16T12:29:44.358437 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v53
+W, [2014-12-16T12:29:44.359634 #4701]  WARN : Connection to APNS failed, used key: e44313f5753e65777cf50ae92fcb3a6afb0f4149cc8ed4ccc05632d3981eae8d
+I, [2014-12-16T12:29:44.362373 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v54
+W, [2014-12-16T12:29:44.367193 #4701]  WARN : Connection to APNS failed, used key: 661c619cdeecb575d28e8c9eb49ed78f6c5644c0390b842a4624e47f726fb687
+I, [2014-12-16T12:29:44.369013 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v55
+W, [2014-12-16T12:29:44.370150 #4701]  WARN : Connection to APNS failed, used key: c9869fe89835e75a837eae4334106292d0bd018473e2deef4e6622df4864e34d
+I, [2014-12-16T12:29:44.371841 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v56
+W, [2014-12-16T12:29:44.373052 #4701]  WARN : Connection to APNS failed, used key: 553f96f3acf5b7aef2a3a8acedd6a7de58c2cf5fe4cc5f6f3f58a07b4036d0a4
+I, [2014-12-16T12:29:44.375033 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v57
+W, [2014-12-16T12:29:44.376535 #4701]  WARN : Connection to APNS failed, used key: dd12aea6fcbfafb0e1ce501577aa15c88e92a413c27722304ce7379e850dee9f
+I, [2014-12-16T12:29:44.379096 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v58
+W, [2014-12-16T12:29:44.381159 #4701]  WARN : Connection to APNS failed, used key: dbefac24f38d5e3bba4b770170348661eb7e7fbe212cfae187f40bf99d268b27
+I, [2014-12-16T12:29:44.384948 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v59
+W, [2014-12-16T12:29:44.386575 #4701]  WARN : Connection to APNS failed, used key: 1b34052c901839042403a0102a02cc3bcdbee46450ce871d4b924645a633f846
+I, [2014-12-16T12:29:44.388926 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v60
+W, [2014-12-16T12:29:44.390088 #4701]  WARN : Connection to APNS failed, used key: c432281ceb01b2a2fbef4d978b87dc948f116f373f166e4513a13c54f32e5e5e
+I, [2014-12-16T12:29:44.393476 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v61
+W, [2014-12-16T12:29:44.394626 #4701]  WARN : Connection to APNS failed, used key: 0360cc5a593d8611f735d2dc05b5f4703ef7850cfec726254665e26b58fde03e
+I, [2014-12-16T12:29:44.396516 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v62
+W, [2014-12-16T12:29:44.397362 #4701]  WARN : Connection to APNS failed, used key: 8e81512395bed7e7f3961a1ecd4973e50799a6894c9fc34b1a8f418b136fe80b
+I, [2014-12-16T12:29:44.399148 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v63
+W, [2014-12-16T12:29:44.400033 #4701]  WARN : Connection to APNS failed, used key: 9314c5f5fc11f2578674012cde86ffffcac422ad9c8917733625779913310e7c
+I, [2014-12-16T12:29:44.401898 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v64
+W, [2014-12-16T12:29:44.402935 #4701]  WARN : Connection to APNS failed, used key: 6622df118c0e2e2cf0306ef200cd18e25ccaf4815e0c03b25e739fba0e4764f6
+I, [2014-12-16T12:29:44.404694 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v65
+W, [2014-12-16T12:29:44.405970 #4701]  WARN : Connection to APNS failed, used key: 8952bd80311a866c2944aed96e3c736c906bd26d57d1f51ec40bdf37c7ecddde
+I, [2014-12-16T12:29:44.407801 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v66
+W, [2014-12-16T12:29:44.409205 #4701]  WARN : Connection to APNS failed, used key: 46120d5415f17d46a884c6d0aef23aa84453a506cbcc00f695789814885365d6
+I, [2014-12-16T12:29:44.411226 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v67
+W, [2014-12-16T12:29:44.412507 #4701]  WARN : Connection to APNS failed, used key: f03035fc6bb07b1fb50ff021c2b10f36918f8f0d38d53c3ca8dfcd0aaec9bc3f
+I, [2014-12-16T12:29:44.414483 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v68
+W, [2014-12-16T12:29:44.415411 #4701]  WARN : Connection to APNS failed, used key: 7a81cd29be79a030b6bfec0d2f97759d919fa7a41b798e8f802f27c49e49b53d
+I, [2014-12-16T12:29:44.417146 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v69
+W, [2014-12-16T12:29:44.418334 #4701]  WARN : Connection to APNS failed, used key: 27e3089c2cdb420a2e54100e3ba522495bf6d28c283bcc319954131c05b0e15b
+I, [2014-12-16T12:29:44.420462 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v70
+W, [2014-12-16T12:29:44.421468 #4701]  WARN : Connection to APNS failed, used key: 0a81c4e844eeae6c1ba0819012bf70a05b545309e02c6c02e881ca05181cd944
+I, [2014-12-16T12:29:44.423320 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v71
+W, [2014-12-16T12:29:44.424563 #4701]  WARN : Connection to APNS failed, used key: 3e9b2f25a12d5cb195bc5dd2cabeef53a0cdbbdd865d51042b0e1187b0c873ad
+I, [2014-12-16T12:29:44.426639 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v72
+W, [2014-12-16T12:29:44.427808 #4701]  WARN : Connection to APNS failed, used key: e399b0cdcf5019ae66d68f10f5955c8cba59ee6a8b88739ac4822899298f76a2
+I, [2014-12-16T12:29:44.429872 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v73
+W, [2014-12-16T12:29:44.430886 #4701]  WARN : Connection to APNS failed, used key: d363fb9b6f8453f249363225c3e654f9efc7d2187ed7f882a8d2c6c52835dbdf
+I, [2014-12-16T12:29:44.432616 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v74
+W, [2014-12-16T12:29:44.433531 #4701]  WARN : Connection to APNS failed, used key: 6b733e5b421d769573cb9e0a228ecfb9e8c985f69eee32733f3f495b7ff34d08
+I, [2014-12-16T12:29:44.435262 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v75
+W, [2014-12-16T12:29:44.436431 #4701]  WARN : Connection to APNS failed, used key: 6b232e8a548350dfa1fac99d591fc504e7f8f467f46f58194f386e1f986820b5
+I, [2014-12-16T12:29:44.438100 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v76
+W, [2014-12-16T12:29:44.439326 #4701]  WARN : Connection to APNS failed, used key: 59871003e150d81edd38a2cf07775f860cc8a6b17c088177db2c92ee991666cb
+I, [2014-12-16T12:29:44.442636 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v77
+W, [2014-12-16T12:29:44.443839 #4701]  WARN : Connection to APNS failed, used key: b7cc1ac5a2147f6a64598a7d54733c9e15cb1c3cc4883281d542f208403ca93f
+I, [2014-12-16T12:29:44.446051 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v78
+W, [2014-12-16T12:29:44.447062 #4701]  WARN : Connection to APNS failed, used key: a31deb32ffe4e59320dfb25503ef2ced63291806015f3441d3cba43a924e25b7
+I, [2014-12-16T12:29:44.448808 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v79
+W, [2014-12-16T12:29:44.450029 #4701]  WARN : Connection to APNS failed, used key: 9edc5220c74178c3e3edbbf5baa6a2752758c09bdd5aa56f4dcd8cb86055702a
+I, [2014-12-16T12:29:44.451670 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v80
+W, [2014-12-16T12:29:44.452520 #4701]  WARN : Connection to APNS failed, used key: f6ecf486001f85ba681d3e0414556d7bb2836191507b4f0f6aa3ceb64d4d7d66
+I, [2014-12-16T12:29:44.454230 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v81
+W, [2014-12-16T12:29:44.455088 #4701]  WARN : Connection to APNS failed, used key: 538ef482d0dc097f8930dc12cd0a31ad4a0cf3745a3312b12d301b23176beb36
+I, [2014-12-16T12:29:44.456798 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v82
+W, [2014-12-16T12:29:44.457933 #4701]  WARN : Connection to APNS failed, used key: 1a036c7e8afd8f6619846125c024f5388355e875b8f81543a390d5ed17418313
+I, [2014-12-16T12:29:44.460072 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v83
+W, [2014-12-16T12:29:44.461818 #4701]  WARN : Connection to APNS failed, used key: 0003008e710bb96cf1379628796a855dbd62883582ae73693fbe27378ab04c03
+I, [2014-12-16T12:29:44.464572 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v84
+W, [2014-12-16T12:29:44.465974 #4701]  WARN : Connection to APNS failed, used key: 8bbe439c70cb6d485e392b5dd080b7f25aba51017e703937138ac82d974cb843
+I, [2014-12-16T12:29:44.467979 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v85
+W, [2014-12-16T12:29:44.468984 #4701]  WARN : Connection to APNS failed, used key: 3ec7a49b345902e21be95efc271721bf332caa57df6fddc9715bfa7400a912ea
+I, [2014-12-16T12:29:44.470670 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v86
+W, [2014-12-16T12:29:44.471664 #4701]  WARN : Connection to APNS failed, used key: 42ba2f4e147f857c159c38825623e8de2a5ddd70349a0bc37b018c2ee152a4ce
+I, [2014-12-16T12:29:44.473470 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v87
+W, [2014-12-16T12:29:44.475022 #4701]  WARN : Connection to APNS failed, used key: 4cdf7b8bd363f888863d66b6a2463e0a3b59801dbb5ba870aad69742ff8e9c99
+I, [2014-12-16T12:29:44.477220 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v88
+W, [2014-12-16T12:29:44.478283 #4701]  WARN : Connection to APNS failed, used key: 53ae20f81378a0a96438212e3acff22b65118a0131e9307b37fb49a2802ba0b2
+I, [2014-12-16T12:29:44.480423 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v89
+W, [2014-12-16T12:29:44.481363 #4701]  WARN : Connection to APNS failed, used key: 339148245a3a0dea132562c22fbca5eef4ba6fec18fa11bc7ab3b56427cc94e9
+I, [2014-12-16T12:29:44.483226 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v90
+W, [2014-12-16T12:29:44.484094 #4701]  WARN : Connection to APNS failed, used key: fd5aed18909e95e16b560657e7d867d8f684501c6f380c276bbc6a6819dac7db
+I, [2014-12-16T12:29:44.486564 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v91
+W, [2014-12-16T12:29:44.487444 #4701]  WARN : Connection to APNS failed, used key: f49399690dcf9f0388afba17226490ce92903ad145cf0880bbcf1d155ad64c3f
+I, [2014-12-16T12:29:44.489160 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v92
+W, [2014-12-16T12:29:44.489953 #4701]  WARN : Connection to APNS failed, used key: b6b00c58fdf3511f51df77149211b9085c035d8b24313761ff485dfed70aea02
+I, [2014-12-16T12:29:44.491646 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v93
+W, [2014-12-16T12:29:44.492941 #4701]  WARN : Connection to APNS failed, used key: 03e77925dc3443868d0df1145afcf086404a1b8df3686ce7021d0902d5da8a27
+I, [2014-12-16T12:29:44.494866 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v94
+W, [2014-12-16T12:29:44.495771 #4701]  WARN : Connection to APNS failed, used key: 3db6cb5a9b09a87f9316227fec2587f8d61313e7a85ef7f106ac0e81fbe1e31a
+I, [2014-12-16T12:29:44.497904 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v95
+W, [2014-12-16T12:29:44.499058 #4701]  WARN : Connection to APNS failed, used key: 44aea70497e128d5f5b70a4bac17b02e66ead044441fd98a376a1f3057670ad7
+I, [2014-12-16T12:29:44.500811 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v96
+W, [2014-12-16T12:29:44.502246 #4701]  WARN : Connection to APNS failed, used key: cb83f20ed7df69b36cd30f289e6b9a8cb56650ad7cdd8580b1dbb4d525b28580
+I, [2014-12-16T12:29:44.504240 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v97
+W, [2014-12-16T12:29:44.505181 #4701]  WARN : Connection to APNS failed, used key: f81b9993fdff0430cf7a3630f70c83368e9efc2bc178f45c24b76d7aa2412c2e
+I, [2014-12-16T12:29:44.506940 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v98
+W, [2014-12-16T12:29:44.508154 #4701]  WARN : Connection to APNS failed, used key: 7d8a3b1562fb31228195c1dd4c6ac7fe1eb0cf157a174f6f5653c3c2a8f5e108
+I, [2014-12-16T12:29:44.510205 #4701]  INFO : Key already exists in db. Platform: APNS, Version: v99
+W, [2014-12-16T12:29:44.511780 #4701]  WARN : Connection to APNS failed, used key: 17a32b547f53c6428d8f60809e1c1fc5c4d816dc8e2540256bfa3bfa1efb06b9
+I, [2014-12-16T12:29:44.515380 #4701]  INFO : Key already exists in db. Platform: GCM, Version: v100
+W, [2014-12-16T12:29:44.516387 #4701]  WARN : Connection to APNS failed, used key: cf9780a0b552b49e7fdb7386d2567bbdc70d8633478467a18f1a8932cf151e15
+I, [2014-12-16T12:29:44.516514 #4701]  INFO : Finished successfully
+Results:
+  Keys:
+    Fetched:  100
+    Saved:    0
+    Valid:    0
+  Tokens:
+    Fetched:  0
+    Saved:    0
+    Pinged:   0
+

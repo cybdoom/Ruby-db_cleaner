@@ -5,7 +5,7 @@ class Key < ActiveRecord::Base
 
   def connect
     require_relative File.join '..', 'adapters', "#{self.platform.downcase}_adapter"
-    include eval("Adapters::#{ self.platform }")
+    extend eval("Adapters::#{ self.platform }")
     self.connect self.key_data
   end
 

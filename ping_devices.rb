@@ -7,7 +7,18 @@ require File.join %w(. src logger)
 # connect to our db
 ActiveRecord::Base.establish_connection Settings.database
 
-results = {keys: {}, tokens: {}}
+$results = {
+  keys: {
+    fetched:  0,
+    saved:    0,
+    valid:    0
+  },
+  tokens: {
+    fetched:  0,
+    saved:    0,
+    pinged:   0
+  }
+}
 
 ::Factory.new.launch
 
@@ -15,11 +26,11 @@ Megalogger.info <<-MSG
 Finished successfully
 Results:
   Keys:
-    Fetched:  #{ results[:keys][:fetched] }
-    Saved:    #{ results[:keys][:saved] }
-    Valid:    #{ results[:keys][:valid] }
+    Fetched:  #{ $results[:keys][:fetched] }
+    Saved:    #{ $results[:keys][:saved] }
+    Valid:    #{ $results[:keys][:valid] }
   Tokens:
-    Fetched:  #{ results[:tokens][:fetched] }
-    Saved:    #{ results[:tokens][:saved] }
-    Pinged:   #{ results[:tokens][:pinged] }
+    Fetched:  #{ $results[:tokens][:fetched] }
+    Saved:    #{ $results[:tokens][:saved] }
+    Pinged:   #{ $results[:tokens][:pinged] }
 MSG

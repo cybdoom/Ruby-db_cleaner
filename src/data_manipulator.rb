@@ -1,12 +1,11 @@
 require 'rest_client'
-require 'json'
 
 require_relative 'parser'
 
 # Manipulates with remote DB using rest api
 class DataManipulator
   # for parsing responses, defines [:parse_keys, :parse_tokens] methods
-  include Parser::HTML
+  include Parser::JSON
 
   TOKENS_PER_PAGE = 100
 
@@ -25,7 +24,7 @@ class DataManipulator
   def fetch_keys
     # GET /<key_list_url>
     keys = parse_keys @resources['keys_list'].get
-    results[:keys][:fetched] = keys.count
+    $results[:keys][:fetched] = keys.count
     keys
   rescue URI::InvalidURIError
     Megalogger.error 'Failed to fetch keys: unable to talk with the remote server'
@@ -40,7 +39,7 @@ class DataManipulator
     response = @resources['tokens_list'].get page: @page, per_page: TOKENS_PER_PAGE
 
     tokens = parse_tokens(response)
-    results[:tokens][:fetched] = tokens.count
+    $results[:tokens][:fetched] = tokens.count
     tokens
   rescue URI::InvalidURIError
     Megalogger.warn 'Failed to fetch tokens: unable to talk with the remote server'

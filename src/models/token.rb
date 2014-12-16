@@ -15,10 +15,10 @@ class Token < ActiveRecord::Base
 
   def verify
     if self.key.verify self.token
-      results[:valid] += 1
+      $results[:valid] += 1
     else
-      results[:invalid] += 1
-      results[:marked] += 1 if self.update_attribute(valid: false)
+      $results[:invalid] += 1
+      $results[:marked] += 1 if self.update_attribute(valid: false)
     end
   end
 

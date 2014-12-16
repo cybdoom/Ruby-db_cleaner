@@ -1,40 +1,48 @@
 require 'sinatra'
-require 'sinatra/json'
+require 'json'
 
-require 'settings'
-
-Settings.data_api.resources.each { |name, url|
-  get url lambda(&self.method(name))
-end
+require './settings'
 
 id = 1
-keys = {}
+KEYS = []
 100.times do |t|
-  keys << [
-    id                       # id
+  KEYS << [
     ['APNS', 'GCM'].sample,  # platform
     "v#{t + 1}",             # application_version
-    SecureRandom.hex 32      # key_data
+    SecureRandom.hex(32)     # key_data
   ]
   id += 1
 end
 
 def keys_list
-  json keys
+  content_type :json
+
+  KEYS.to_json
 end
 
 def tokens_list
+  content_type :json
+
   response = []
   tokens_count = 100000
   params['per_page'].times { response << [
-    SecureRandom.hex 16,                          # token
+    SecureRandom.hex(16),                         # token
     "v#{ 1 + SecureRandom.random_number(100) }",  # provider_version
     ['APNS', 'GCM'].sample,                       # provider_name
-    SecureRandom.hex 16                           # device_id
+    SecureRandom.hex(16)                          # device_id
   ] }
-  json response
+
+  response.to_json
 end
 
 def delete_token
-  json true
+  content_type :json
+
+  true.to_json
+end
+
+Settings.data_api.resources.each do |name, url|
+  get "/#{ url }" do
+    self.method(name).call
+  end
 end

@@ -18,15 +18,16 @@ module Parser
 
   # json parser
   module JSON
+    require 'json'
 
-    def parse_keys json
+    def parse_keys json_str
       # STUB
-      json
+      ::JSON.parse json_str
     end
 
-    def parse_tokens json
+    def parse_tokens json_str
       # STUB
-      json
+      ::JSON.parse json_str
     end
 
   end
