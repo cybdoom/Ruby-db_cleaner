@@ -12,29 +12,6 @@ class Token < ActiveRecord::Base
 
   @@data_manipulator = DataManipulator.new
 
-  def ping
-    if self.key.connect
-      self.key.ping self.token
-      $results[:tokens][:pinged] += 1
-    else
-      Megalogger.warn "Failed to connect to #{ self.platform } using key #{ self.key_data }"
-    end
-  end
-
-  def verify
-    if self.key.verify self.token
-      $results[:tokens][:fresh] += 1
-    else
-      $results[:tokens][:outdated] += 1
-      $results[:tokens][:marked] += 1 if self.update_attribute(valid: false)
-    end
-  end
-
-  def remote_destroy
-    token_data = self.to_json.select { |key| [:token, :provider_name, :provider_version, :device_id].include? key }
-    @@data_manipulator.delete_token token_data
-  end
-
   def self.update_from_remote
     data = @@data_manipulator.fetch_tokens
     data.each do |datum|

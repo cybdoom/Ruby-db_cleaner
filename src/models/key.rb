@@ -8,12 +8,6 @@ class Key < ActiveRecord::Base
 
   @@data_manipulator = DataManipulator.new
 
-  def connect
-    require_relative File.join '..', 'adapters', "#{self.platform.downcase}_adapter"
-    self.class.send :include, eval("Adapters::#{ self.platform }")
-    self.init_connection self.key_data
-  end
-
   def self.update_from_remote
     data = @@data_manipulator.fetch_keys
     data.each do |datum|
