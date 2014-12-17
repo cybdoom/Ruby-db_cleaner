@@ -5,7 +5,7 @@ class CreateTokens < ActiveRecord::Migration
       t.string :provider_name
       t.string :provider_version
       t.string :device_id
-      t.boolean :valid
+      t.boolean :fresh
 
       t.references :key
 

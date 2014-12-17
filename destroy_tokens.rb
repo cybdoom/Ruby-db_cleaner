@@ -13,7 +13,7 @@ $results = {
   },
   start_time: Time.now
 }
-Token.invalid.each &:destroy
+Token.outdated.each &:destroy
 
 Megalogger.info <<-MSG
 Finished successfully

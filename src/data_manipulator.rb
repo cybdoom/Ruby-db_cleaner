@@ -10,9 +10,6 @@ class DataManipulator
   TOKENS_PER_PAGE = 100
 
   def initialize
-    # for fetching tokens page by page
-    @page = 0
-
     # initialize resource
     @resources = {}
     #
@@ -26,29 +23,37 @@ class DataManipulator
     keys = parse_keys @resources['keys_list'].get
     $results[:keys][:fetched] = keys.count
     keys
-  rescue URI::InvalidURIError
+  rescue URI::InvalidURIError, Errno::ECONNREFUSED
     Megalogger.error 'Failed to fetch keys: unable to talk with the remote server'
     abort
   end
 
   # fetch some portion of tokens data from the remote server
-  def fetch_some_tokens
-    @page += 1
+  def fetch_tokens
+    puts 'fetching tokens'
+    @page = 1
+    tokens = []
 
-    # GET /<tokens_list_url>?page=@page&per_page=@per_page
-    response = @resources['tokens_list'].get page: @page, per_page: TOKENS_PER_PAGE
+    loop do
+      # GET /<tokens_list_url>?page=@page&per_page=@per_page
+      response = @resources['tokens_list'].get params: { page: @page, per_page: TOKENS_PER_PAGE }
 
-    tokens = parse_tokens(response)
-    $results[:tokens][:fetched] = tokens.count
+      tokens_portion = parse_tokens response
+      tokens += tokens_portion
+
+      break if tokens_portion.count < TOKENS_PER_PAGE
+      @page += 1
+    end
+    $results[:tokens][:fetched] += tokens.count
     tokens
-  rescue URI::InvalidURIError
+  rescue URI::InvalidURIError, Errno::ECONNREFUSED
     Megalogger.warn 'Failed to fetch tokens: unable to talk with the remote server'
   end
 
   def delete_token token_data
     # DELETE /<delete_token_url>?token_data
     @resources['delete_token'].delete token_data
-  rescue URI::InvalidURIError
+  rescue URI::InvalidURIError, Errno::ECONNREFUSED
     Megalogger.warn 'Failed to delete token: unable to talk with the remote server'
   end
 

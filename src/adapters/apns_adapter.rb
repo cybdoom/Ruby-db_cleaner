@@ -1,6 +1,8 @@
 module Adapters
   module APNS
-    def connect key_data
+    def init_connection key_data
+      return true if ENVIRONMENT == 'test'
+
       @connection = Grocer.pusher(
         certificate:  StringIO.new(key_data),
         gateway:      Settings.service.apns.gateway,

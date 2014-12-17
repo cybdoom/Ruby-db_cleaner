@@ -9,8 +9,8 @@ ActiveRecord::Base.establish_connection Settings.database
 $results = {
   tokens: {
     total:       Token.count,
-    valid:       0,
-    invalid:     0,
+    fresh:       0,
+    outdated:     0,
     marked:      0
   },
   start_time:  Time.now
@@ -24,8 +24,8 @@ Finished successfully
 Results:
   Tokens:
     Total:                #{ $results[:tokens][:total] }
-    Valid:                #{ $results[:tokens][:valid] }
-    Invalid:              #{ $results[:tokens][:invalid] }
+    Valid:                #{ $results[:tokens][:fresh] }
+    Invalid:              #{ $results[:tokens][:outdated] }
     Marked for deletion:  #{ $results[:tokens][:marked] }
   Time:                   #{ Time.now - $results[:start_time] }
 MSG

@@ -8,6 +8,6 @@ class CreateKeys < ActiveRecord::Migration
       t.timestamps
     end
 
-    add_index :keys, [:platform, :application_version], unique: true
+    add_index :keys, [:application_version, :platform], unique: true
   end
 end

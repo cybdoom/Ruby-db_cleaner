@@ -1,7 +1,7 @@
 require File.join %w(. src environment)
 
-require File.join %w(. src factory)
 require File.join %w(. src settings)
+require File.join %w(. src factory)
 require File.join %w(. src logger)
 
 # connect to our db
@@ -11,7 +11,6 @@ $results = {
   keys: {
     fetched:  0,
     saved:    0,
-    valid:    0
   },
   tokens: {
     fetched:  0,
@@ -29,7 +28,6 @@ Results:
   Keys:
     Fetched:  #{ $results[:keys][:fetched] }
     Saved:    #{ $results[:keys][:saved] }
-    Valid:    #{ $results[:keys][:valid] }
   Tokens:
     Fetched:  #{ $results[:tokens][:fetched] }
     Saved:    #{ $results[:tokens][:saved] }

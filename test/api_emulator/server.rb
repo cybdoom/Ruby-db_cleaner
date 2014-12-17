@@ -15,34 +15,31 @@ KEYS = []
 end
 
 def keys_list
-  content_type :json
-
   KEYS.to_json
 end
 
 def tokens_list
-  content_type :json
-
   response = []
-  tokens_count = 100000
-  params['per_page'].times { response << [
-    SecureRandom.hex(16),                         # token
-    "v#{ 1 + SecureRandom.random_number(100) }",  # provider_version
-    ['APNS', 'GCM'].sample,                       # provider_name
-    SecureRandom.hex(16)                          # device_id
-  ] }
+  pages = 10
+  (params['page'].to_i < pages ? params['per_page'].to_i : params['per_page'].to_i - 1).times do
+    response << [
+      SecureRandom.hex(16),                         # token
+      ['APNS', 'GCM'].sample,                       # provider_name
+      "v#{ 1 + SecureRandom.random_number(100) }",  # provider_version
+      SecureRandom.hex(16)                          # device_id
+    ]
+  end
 
   response.to_json
 end
 
 def delete_token
-  content_type :json
-
   true.to_json
 end
 
 Settings.data_api.resources.each do |name, url|
   get "/#{ url }" do
+    content_type :json
     self.method(name).call
   end
 end
