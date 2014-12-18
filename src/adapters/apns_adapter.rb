@@ -34,12 +34,14 @@ module Adapters
       false
     end
 
-    def verify token_data
+    def update_status token_data
+      return ['good', 'suspicious', 'bad'].sample if ENVIRONMENT == 'test'
+
       @feedback.each do |info|
-        return false if info.device_token == token_data['token']
+        return 'bad' if info.device_token == token_data['token']
       end
 
-      true
+      'good'
     end
   end
 end

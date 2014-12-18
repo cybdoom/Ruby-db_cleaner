@@ -4,6 +4,8 @@ require File.join %w(. src data_manipulator)
 class Key < ActiveRecord::Base
   has_many :tokens
 
+  scope :since, ->(time) { where("updated_at > ?", time) }
+
   validate :key_data, uniqueness: true
 
   @@data_manipulator = DataManipulator.new
@@ -14,7 +16,6 @@ class Key < ActiveRecord::Base
       attributes = Hash[[:platform, :application_version, :key_data].zip(datum)]
       begin
         record = self.create attributes
-        $results[:keys][:saved] += 1 if record.persisted?
       rescue ActiveRecord::RecordNotUnique
         Megalogger.warn "Fetched key already exists in our db"
 

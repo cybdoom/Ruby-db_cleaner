@@ -4,7 +4,7 @@ require File.join %w(. src data_manipulator)
 class Token < ActiveRecord::Base
   belongs_to :key
 
-  scope :outdated, -> { where(fresh: false) }
+  scope :since, ->(time) { where("updated_at > ?", time) }
 
   before_destroy :destroy_remote
 
@@ -13,21 +13,26 @@ class Token < ActiveRecord::Base
   @@data_manipulator = DataManipulator.new
 
   def self.update_from_remote
-    data = @@data_manipulator.fetch_tokens
-    data.each do |datum|
-      attributes = Hash[[:token, :provider_name, :provider_version, :device_id].zip(datum)]
-      key = Key.find_by_application_version_and_platform attributes[:provider_version], attributes[:provider_name]
-      attributes.merge! key_id: (key ? key.id : nil)
-      begin
-        record = self.create attributes
+    loop do
+      data = @@data_manipulator.fetch_some_tokens
+      break unless data
 
-        $results[:tokens][:saved] += 1 if record.persisted?
-      rescue ActiveRecord::RecordNotUnique
-        Megalogger.warn "Fetched token already exists in our db"
+      data.each do |datum|
+        attributes = Hash[[:token, :provider_name, :provider_version, :device_id].zip(datum)]
+        key = Key.find_by_application_version_and_platform attributes[:provider_version], attributes[:provider_name]
+        attributes.merge! key_id: (key ? key.id : nil)
+        begin
+          record = self.create attributes
+        rescue ActiveRecord::RecordNotUnique
+          Megalogger.warn "Fetched token already exists in our db"
 
-        search_hash = attributes.select { |attribute_name| [:application_version, :platform].include? attribute_name }
-        self.where(search_hash).first.touch
+          search_hash = attributes.select { |attribute_name| [:application_version, :platform].include? attribute_name }
+          self.where(search_hash).first.touch
+        end
       end
+
+      Megalogger.info 'Fetched tokens portion'
     end
   end
+
 end

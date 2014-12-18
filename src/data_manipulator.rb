@@ -16,36 +16,27 @@ class DataManipulator
     url_prefix = "#{ Settings.data_api.protocol }://#{Settings.data_api.server}:#{Settings.data_api.port}/"
     Settings.data_api.resources.each { |k, v| @resources[k] = RestClient::Resource.new "#{ url_prefix }#{ v }" }
     # # # # # # # # # # #
+
+    # for fetching tokens page by page
+    @page = 0
   end
 
   def fetch_keys
     # GET /<key_list_url>
-    keys = parse_keys @resources['keys_list'].get
-    $results[:keys][:fetched] = keys.count
-    keys
+    parse_keys @resources['keys_list'].get
   rescue URI::InvalidURIError, Errno::ECONNREFUSED
     Megalogger.error 'Failed to fetch keys: unable to talk with the remote server'
     abort
   end
 
   # fetch some portion of tokens data from the remote server
-  def fetch_tokens
-    puts 'fetching tokens'
-    @page = 1
-    tokens = []
+  def fetch_some_tokens
+    # GET /<tokens_list_url>?page=@page&per_page=@per_page
+    @page += 1
+    response = @resources['tokens_list'].get params: { page: @page, per_page: TOKENS_PER_PAGE }
 
-    loop do
-      # GET /<tokens_list_url>?page=@page&per_page=@per_page
-      response = @resources['tokens_list'].get params: { page: @page, per_page: TOKENS_PER_PAGE }
-
-      tokens_portion = parse_tokens response
-      tokens += tokens_portion
-
-      break if tokens_portion.count < TOKENS_PER_PAGE
-      @page += 1
-    end
-    $results[:tokens][:fetched] += tokens.count
-    tokens
+    tokens_portion = parse_tokens response
+    tokens_portion.count == TOKENS_PER_PAGE ? tokens_portion : nil
   rescue URI::InvalidURIError, Errno::ECONNREFUSED
     Megalogger.warn 'Failed to fetch tokens: unable to talk with the remote server'
   end

@@ -25,8 +25,8 @@ module Adapters
       false
     end
 
-    def verify token_data
-      return true if ENVIRONMENT == 'test'
+    def update_status token_data
+      return ['good', 'suspicious', 'bad'].sample if ENVIRONMENT == 'test'
 
       message = {
         data: {},
@@ -34,7 +34,16 @@ module Adapters
       }
 
       response = @connection.send token_data['token'], message
-      response[:results][:error] != 'NotRegistered'
+
+      case response[:results][:error]
+      when 'NotRegistered'
+        'bad'
+      when 'Unavailable'
+        'suspicious'
+      else
+        Megalogger.warn "Unhandled error was recieved from GCM service:\n#{ response[:results][:error] }\nThe token was marked as 'good'"
+        'good'
+      end
     end
   end
 end
