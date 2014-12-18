@@ -7,15 +7,15 @@ class Worker
     @tokens = tokens_data
 
     # plug in adapter
-    relative_path = File.join '.', 'src', 'adapters', "#{key_data['platform'].downcase}_adapter"
-    require relative_path
+    relative_path = File.join 'adapters', "#{key_data['platform'].downcase}_adapter"
+    require_relative relative_path
     @adapter = eval("Adapters::#{ key_data['platform'] }").new
     # # # # # # # # #
 
     # set behavior
     @behavior = behavior
-    relative_path = File.join '.', 'src', 'workers', @behavior.to_s
-    require relative_path
+    relative_path = File.join 'workers', @behavior.to_s
+    require_relative relative_path
     self.class.send(:include, eval("Workers::#{ @behavior.capitalize }"))
     # # # # # # # # #
   end

@@ -1,8 +1,8 @@
-require_relative File.join %w(src environment)
-require_relative File.join %w(src settings)
-require_relative File.join %w(src logger)
-require_relative File.join %w(src models token)
-require_relative File.join %w(src models key)
+require_relative File.join %w(.. src environment)
+require_relative File.join %w(.. src settings)
+require_relative File.join %w(.. src logger)
+require_relative File.join %w(.. src models token)
+require_relative File.join %w(.. src models key)
 
 start_time = Time.now
 

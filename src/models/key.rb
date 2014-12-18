@@ -1,5 +1,5 @@
 require 'active_record'
-require File.join %w(. src data_manipulator)
+require_relative File.join %w(.. data_manipulator)
 
 class Key < ActiveRecord::Base
   has_many :tokens

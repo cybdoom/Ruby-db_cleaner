@@ -1,7 +1,7 @@
 require 'active_record'
 
-require_relative File.join %w(src environment)
-require_relative File.join %w(src settings)
+require_relative File.join %w(. src environment)
+require_relative File.join %w(. src settings)
 
 namespace :db do
   desc 'Connect to database server'
